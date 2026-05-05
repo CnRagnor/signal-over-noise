@@ -42,7 +42,6 @@
 - [🛡️ Operational Security (OPSEC) for OSINT](#️-operational-security-opsec-for-osint)
 - [🎓 Learning, Training & Communities](#-learning-training--communities)
 - [📖 Books & Essential Reading](#-books--essential-reading)
-- [🤝 Contributing](#-contributing)
 
 ---
 

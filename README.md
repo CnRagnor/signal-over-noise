@@ -2,6 +2,23 @@
 
 # 🔍 Awesome OSINT — 2026 Edition
 
+<div align="center">
+
+# 🔍 Awesome OSINT — 2026 Edition
+
+![Awesome](https://awesome.re/badge.svg)
+![Updated 2026](https://img.shields.io/badge/Updated-2026-brightgreen)
+![Contributions welcome](https://img.shields.io/badge/contributions-welcome-blue)
+![GitHub Stars](https://img.shields.io/github/stars/YOUR_USERNAME/awesome-osint-2026?style=social)
+
+---
+
+### 🕵️‍♂️ A curated galaxy of OSINT tools, frameworks & resources for researchers, analysts, and cybersecurity professionals.
+
+**Private. Powerful. Ethical. Updated for 2026.**
+
+</div>
+
 > A comprehensive, researcher-grade list of Open Source Intelligence (OSINT) tools, frameworks, and resources — curated for cybersecurity professionals, penetration testers, threat intelligence analysts, investigators, and researchers.
 
 > ⚠️ **Legal Disclaimer:** All tools listed here are intended for **legal, ethical, and authorized use only**. Always obtain proper written authorization before investigating any individual, organization, or system. The maintainers are not responsible for any misuse of the tools or information listed here. Unauthorized surveillance, stalking, or unauthorized data collection may violate local, national, and international laws.

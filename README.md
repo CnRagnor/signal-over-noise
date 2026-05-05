@@ -1,4 +1,3 @@
-# OSINT-TOOLS-2026
 
 # 🔍 Awesome OSINT — 2026 Edition
 

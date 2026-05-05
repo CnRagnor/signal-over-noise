@@ -668,21 +668,5 @@ DOCUMENT → Report with timestamped, sourced evidence
 
 ---
 
-## 🤝 Contributing
-
-Contributions are welcome! To add a tool:
-
-1. Fork this repository
-2. Add your tool to the relevant section in this format:
-   ```
-   | [Tool Name](https://url) | Brief description of what it does and who it's for | Free/Freemium/💲 |
-   ```
-3. Ensure the tool is **actively maintained** (updated within 12 months)
-4. Ensure the tool is **legal to use** for OSINT purposes
-5. Submit a pull request with a brief explanation
-
-
-
----
 
 *Last updated: 2026 | Maintained by the community | ⭐ Star this repo if you find it useful!*

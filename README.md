@@ -1,5 +1,5 @@
 
-# 🔍 Awesome OSINT — 2026 Edition
+# 🔍 IntelVerse — OSINT 2026  Edition
 
 
 ---

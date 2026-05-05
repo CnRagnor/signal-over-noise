@@ -1,14 +1,6 @@
 
 # 🔍 Awesome OSINT — 2026 Edition
 
-<div align="center">
-
-# 🔍 Awesome OSINT — 2026 Edition
-
-![Awesome](https://awesome.re/badge.svg)
-![Updated 2026](https://img.shields.io/badge/Updated-2026-brightgreen)
-![Contributions welcome](https://img.shields.io/badge/contributions-welcome-blue)
-![GitHub Stars](https://img.shields.io/github/stars/YOUR_USERNAME/awesome-osint-2026?style=social)
 
 ---
 

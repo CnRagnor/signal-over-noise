@@ -1,4 +1,4 @@
-# 🕵️ Signal-Over-Noise — 2026 Edition
+# 🕵️ Intelverse 2026: The Definitive OSINT Arsenal for Modern Investigators.
 
 > **The OSINT noise floor is rising. This is the signal.**  
 > A curated collection of field-tested intelligence tools for cybersecurity professionals, threat hunters, and investigators. I maintain this repository to bridge the gap between theoretical tools and actual investigative results. No filler, no dead links: just the high-yield assets I use to cut through the static.

@@ -1,679 +1,753 @@
+# 🕵️ Signal-Over-Noise — 2026 Edition
 
-# 🔍 IntelVerse — OSINT 2026  Edition
+> **The OSINT noise floor is rising. This is the signal.**  
+> A curated collection of field-tested intelligence tools for cybersecurity professionals, threat hunters, and investigators. I maintain this repository to bridge the gap between theoretical tools and actual investigative results. No filler, no dead links: just the high-yield assets I use to cut through the static.
 
+<div align="center">
 
----
-
-### 🕵️‍♂️ A curated galaxy of OSINT tools, frameworks & resources for researchers, analysts, and cybersecurity professionals.
-
-**Private. Powerful. Ethical. Updated for 2026.**
+![Status](https://img.shields.io/badge/Status-Actively%20Maintained-brightgreen?style=flat-square)
+![Year](https://img.shields.io/badge/Updated-May%202026-blue?style=flat-square)
+![Tools](https://img.shields.io/badge/Tools-200%2B-orange?style=flat-square)
+![License](https://img.shields.io/badge/License-MIT-lightgrey?style=flat-square)
+![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-brightgreen?style=flat-square)
 
 </div>
 
-> A comprehensive, researcher-grade list of Open Source Intelligence (OSINT) tools, frameworks, and resources — curated for cybersecurity professionals, penetration testers, threat intelligence analysts, investigators, and researchers.
+---
 
-> ⚠️ **Legal Disclaimer:** All tools listed here are intended for **legal, ethical, and authorized use only**. Always obtain proper written authorization before investigating any individual, organization, or system. The maintainers are not responsible for any misuse of the tools or information listed here. Unauthorized surveillance, stalking, or unauthorized data collection may violate local, national, and international laws.
+### 🎯 The Signal-Over-Noise Principle
+In an era of information overload, this repository adheres to a strict curation standard:
+*   **Zero Dead Links:** Manually verified for 2026 compatibility.
+*   **Tactical Utility:** If a tool doesn't solve a real-world problem, it isn't here.
+*   **Investigator Safety:** Evaluated for OPSEC and research hygiene.
 
 ---
 
-## 📚 Table of Contents
-
-- [🏗️ Frameworks & All-in-One Platforms](#️-frameworks--all-in-one-platforms)
-- [🤖 AI-Powered OSINT Tools (2026)](#-ai-powered-osint-tools-2026)
-- [👤 People Search & Identity Resolution](#-people-search--identity-resolution)
-- [🔑 Username & Social Media (SOCMINT)](#-username--social-media-socmint)
-- [📧 Email Investigation](#-email-investigation)
-- [📞 Phone Number Intelligence](#-phone-number-intelligence)
-- [🌐 Domain, DNS & IP Intelligence](#-domain-dns--ip-intelligence)
-- [🖥️ Internet-Connected Device Search](#️-internet-connected-device-search)
-- [🗺️ Geolocation, Maps & Satellite Imagery](#️-geolocation-maps--satellite-imagery)
-- [🖼️ Image, Video & Metadata Analysis](#️-image-video--metadata-analysis)
-- [🕵️ Dark Web & Tor Intelligence](#️-dark-web--tor-intelligence)
-- [💀 Data Breaches & Credential Leaks](#-data-breaches--credential-leaks)
-- [🏢 Company, Business & Financial Intel](#-company-business--financial-intel)
-- [🔗 Blockchain & Cryptocurrency Tracking](#-blockchain--cryptocurrency-tracking)
-- [🔎 Search Engines & Google Dorking](#-search-engines--google-dorking)
-- [📡 Threat Intelligence Platforms](#-threat-intelligence-platforms)
-- [🔬 Vulnerability & Attack Surface Mapping](#-vulnerability--attack-surface-mapping)
-- [📱 Mobile & App Intelligence](#-mobile--app-intelligence)
-- [📰 News, Archives & Wayback](#-news-archives--wayback)
-- [🗂️ Document & Metadata Analysis](#️-document--metadata-analysis)
-- [🧩 Browser Extensions & OSINT Add-ons](#-browser-extensions--osint-add-ons)
-- [🛡️ Operational Security (OPSEC) for OSINT](#️-operational-security-opsec-for-osint)
-- [🎓 Learning, Training & Communities](#-learning-training--communities)
-- [📖 Books & Essential Reading](#-books--essential-reading)
+> ⚖️ **Ethical Use Only.** Every tool in this list must be used within applicable laws and with proper authorization. This repository exists for defenders, researchers, and analysts. The maintainer accepts no responsibility for any misuse or unlawful activity.
 
 ---
 
-## 🏗️ Frameworks & All-in-One Platforms
-
-> Full-spectrum platforms used as the backbone of professional OSINT workflows.
-
-| Tool | Description | Type | Free |
-|------|-------------|------|------|
-| [Maltego](https://www.maltego.com) | Industry-standard visual link analysis & relationship mapping across people, domains, IPs, and orgs | GUI / Cloud | Freemium |
-| [SpiderFoot](https://www.spiderfoot.net) | Automated OSINT collection across 200+ data sources — DNS, WHOIS, breaches, social media, IPs | CLI / Web UI | ✅ Open Source |
-| [Recon-ng](https://github.com/lanmaster53/recon-ng) | Modular web recon framework (Metasploit-style), great for domain and org reconnaissance | CLI | ✅ Open Source |
-| [theHarvester](https://github.com/laramies/theHarvester) | Harvests emails, subdomains, IPs, names, and URLs from public sources | CLI | ✅ Open Source |
-| [OSINT Framework](https://osintframework.com) | Categorized web directory of OSINT tools organized by investigation type | Web | ✅ Free |
-| [ShadowDragon Horizon](https://shadowdragon.io) | Enterprise platform pulling data from 600+ sources — social, dark web, historical datasets | GUI / Cloud | 💲 Paid |
-| [Crimewall by Social Links](https://sociallinks.io/products/sl-crimewall) | Full-cycle OSINT platform with 500+ source integrations including blockchain, messengers, dark web | GUI | 💲 Paid |
-| [Hunchly](https://www.hunch.ly) | Browser-based evidence capture and case management — auto-archives every page during investigation | Browser Extension | 💲 Paid |
-| [NexVision](https://nexvision.ai) | AI-driven OSINT with the largest combined surface + dark web data pool; eliminates false positives | Cloud | 💲 Paid |
-| [Sn0int](https://github.com/kpcyrd/sn0int) | Semi-automated OSINT framework with package manager for custom modules | CLI | ✅ Open Source |
-| [Osmedeus](https://github.com/j3ssie/osmedeus) | Fully automated offensive recon workflow engine | CLI | ✅ Open Source |
-| [Photon](https://github.com/s0md3v/Photon) | Lightning-fast web crawler designed for OSINT data extraction | CLI | ✅ Open Source |
+## 🗂️ Arsenal Index
+| Category | Focus |
+| :--- | :--- |
+| **01** | [Search Engines & Dorking](#01-search-engines--dorking) |
+| **02** | [Cyberspace Asset Search](#02-cyberspace-asset-search) |
+| **03** | [Social Media & Identity](#05-social-media--username-osint) |
+| **04** | [Domain & Infrastructure](#04-domain-dns--certificate-intel) |
+| **05** | [Breach & Threat Intel](#12-breach--credential-intelligence) |
+| **06** | [Dark Web & Crypto Tracing](#18-blockchain--crypto-tracing) |
 
 ---
 
-## 🤖 AI-Powered OSINT Tools (2026)
+## 🗂️ Index
 
-> The OSINT landscape in 2026 is increasingly dominated by AI and ML-driven platforms that automate correlation, entity extraction, and predictive analysis.
+| # | Category | # | Category |
+|---|----------|---|----------|
+| 01 | [Search Engines & Dorking](#01--search-engines--dorking) | 12 | [Breach & Credential Intelligence](#12--breach--credential-intelligence) |
+| 02 | [Cyberspace Asset Search](#02--cyberspace-asset-search) | 13 | [Threat Actor & APT Tracking](#13--threat-actor--apt-tracking) |
+| 03 | [Recon Frameworks & Automation](#03--recon-frameworks--automation) | 14 | [Live Cyber Threat Maps](#14--live-cyber-threat-maps) |
+| 04 | [Domain, DNS & Certificate Intel](#04--domain-dns--certificate-intel) | 15 | [Geospatial & Satellite Intelligence](#15--geospatial--satellite-intelligence) |
+| 05 | [Social Media & Username OSINT](#05--social-media--username-osint) | 16 | [Image & Video Forensics](#16--image--video-forensics) |
+| 06 | [People & Identity Investigation](#06--people--identity-investigation) | 17 | [Document & Metadata Extraction](#17--document--metadata-extraction) |
+| 07 | [Email Intelligence](#07--email-intelligence) | 18 | [Blockchain & Crypto Tracing](#18--blockchain--crypto-tracing) |
+| 08 | [Phone Number Intelligence](#08--phone-number-intelligence) | 19 | [Dark Web & Underground Intel](#19--dark-web--underground-intel) |
+| 09 | [Company & Corporate Intelligence](#09--company--corporate-intelligence) | 20 | [Browser Extensions & Quick Lookup](#20--browser-extensions--quick-lookup) |
+| 10 | [Code & Repository Intelligence](#10--code--repository-intelligence) | 21 | [OPSEC, Privacy & Anonymity](#21--opsec-privacy--anonymity) |
+| 11 | [News, Archives & Web History](#11--news-archives--web-history) | 22 | [Learning, Communities & Resources](#22--learning-communities--resources) |
+
+---
+
+## 01 · Search Engines & Dorking
+
+> The starting point for almost every investigation. Master these before reaching for specialized tools.
+
+### General & AI-Powered
+
+| Tool | Why It Matters | Free |
+|------|----------------|------|
+| [Google](https://www.google.com) | Widest web index on earth — the baseline for all surface-level recon | ✅ |
+| [Bing](https://www.bing.com) | Different crawl index, often returns results Google suppresses | ✅ |
+| [Yandex](https://www.yandex.com) | Superior reverse image search; strongest engine for CIS-region targets | ✅ |
+| [Baidu](https://www.baidu.com) | Non-negotiable for investigations involving Chinese infrastructure | ✅ |
+| [Brave Search](https://search.brave.com) | Independent index — not reliant on Google or Bing, no tracking | ✅ |
+| [Perplexity AI](https://www.perplexity.ai) | AI search with cited sources — fast context-building on any topic | ✅ |
+| [Wolfram Alpha](https://www.wolframalpha.com) | Computational knowledge engine — useful for data, stats, and structured queries | ✅ |
+| [Kagi](https://kagi.com) | Ad-free, no surveillance, powerful filtering and ranking controls | Freemium |
+
+### Privacy-First Search (OPSEC Investigations)
+
+| Tool | Notes |
+|------|-------|
+| [Startpage](https://www.startpage.com) | Anonymous Google proxy — full results without being fingerprinted |
+| [DuckDuckGo](https://duckduckgo.com) | No tracking; good for unfiltered first-pass searches |
+| [Swisscows](https://swisscows.com) | Swiss-hosted, zero data retention |
+| [Presearch](https://presearch.com) | Decentralized, community-operated search engine |
+| [Gibiru](https://gibiru.com) | Uncensored results, no IP logging |
+
+### Google Dorking
+
+> **Note (2026):** `cache:` was removed by Google in early 2024. `related:` was dropped in 2023. Use the Wayback Machine as your cache replacement. All other core operators remain active.
+
+**Core Operator Reference:**
+
+```
+site:target.com                         → Restrict results to a domain
+filetype:pdf                            → Find specific formats (pdf, docx, xlsx, env, log, sql, bak)
+intitle:"index of"                      → Locate open directory listings
+inurl:admin                             → Find admin panels and login pages
+intext:"api_key" OR intext:"password"   → Exposed credentials in page body
+before:2024-01-01                       → Filter results before a date
+after:2023-06-01                        → Filter results after a date
+"exact phrase"                          → Force exact string match
+-keyword                                → Exclude a term
+site:target.com filetype:pdf "internal use only"
+intitle:"index of" "backup" site:target.com
+site:target.com inurl:login OR inurl:signin OR inurl:portal
+```
+
+**Dork Generation Tools:**
 
 | Tool | Description | Free |
 |------|-------------|------|
-| [Talkwalker](https://www.talkwalker.com) | AI-powered social listening with Blue Silk AI™ — predicts trends 90 days ahead, monitors 150M+ websites in 187 languages | 💲 Paid |
-| [Recorded Future](https://www.recordedfuture.com) | ML + NLP-driven threat intelligence platform (acquired by Mastercard 2024) — real-time dark web + forum intel | 💲 Paid |
-| [Babel X / Babel Street](https://www.babelstreet.com) | Multilingual AI OSINT — scrapes and analyzes 200+ languages from social media, blogs, dark web | 💲 Paid |
-| [Arkham Intelligence](https://www.arkhamintelligence.com) | AI-powered blockchain entity mapping — groups wallets by owners (exchanges, funds, whales) | Freemium |
-| [OSINT Industries](https://osint.industries) | Real-time identity resolution via email/phone — pulls verified accounts, profiles, images, crypto wallets | Freemium |
-| [Social Links](https://sociallinks.io) | AI-powered mining of social media, messengers, blockchains, and dark web with 1,000+ search methods | 💲 Paid |
-| [Liferaft Navigator](https://liferaft.co) | AI threat intelligence monitoring physical security risks across social, deep web, and dark web | 💲 Paid |
-| [Cyble ODIN](https://cyble.com) | AI-powered internet asset scanning engine — exposed buckets, IP scanning, subdomain tracking, vuln detection | 💲 Paid |
-| [ZeroFox](https://www.zerofox.com) | External digital risk protection — social media threat detection, dark web monitoring, takedown services | 💲 Paid |
+| [Google Hacking Database (GHDB)](https://www.exploit-db.com/google-hacking-database) | 7,000+ categorized dorks maintained by Offensive Security | ✅ |
+| [DorkGenius](https://dorkgenius.com) | AI dork generator for Google, Bing, and DuckDuckGo | ✅ |
+| [DorkGPT](https://www.dorkgpt.com) | Plain-language → working dork query conversion | ✅ |
+| [SearchDorks](https://kriztalz.sh/search-dorks/) | AI dork builder covering FOFA, Shodan, Censys, and ZoomEye too | ✅ |
+
+### Specialty & Niche Search
+
+| Tool | Best For |
+|------|----------|
+| [PublicWWW](https://publicwww.com) | Search websites by source code — find wallet addresses, tracking IDs, API keys baked into HTML |
+| [grep.app](https://grep.app) | Regex search across all public GitHub repos |
+| [Searchcode](https://searchcode.com) | 75B+ lines of indexed public code |
+| [Million Short](https://millionshort.com) | Strip the top 1M popular sites to surface obscure findings |
+| [OCCRP Aleph](https://aleph.occrp.org) | Leaked documents, court records, and corporate filings for investigators |
+| [Offshore Leaks Database](https://offshoreleaks.icij.org) | ICIJ Panama/Pandora Papers — shell companies and offshore entities |
+| [RECAP Archive](https://www.courtlistener.com/recap/) | US federal court documents — free alternative to PACER |
+| [Carrot2](https://search.carrot2.org) | Clusters results into themes — useful for identifying patterns across large result sets |
+| [Epstein Exposed](https://epsteinexposed.com) | 2M+ DOJ case documents, flight logs, and network graph visualization |
+| [DocumentCloud](https://www.documentcloud.org) | Journalist-grade annotated document platform |
 
 ---
 
-## 👤 People Search & Identity Resolution
+## 02 · Cyberspace Asset Search
 
-> For tracing individuals, verifying identities, and mapping digital footprints.
+> Search engines for the internet itself — indexing ports, banners, certificates, and exposed services. Core to attack surface mapping and threat hunting.
 
-### Free / Freemium
-
-| Tool | Description |
-|------|-------------|
-| [TruePeopleSearch](https://www.truepeoplesearch.com) | Free US people finder — address, phone, relatives |
-| [FamilyTreeNow](https://www.familytreenow.com) | Genealogy and contact information lookup |
-| [FastPeopleSearch](https://www.fastpeoplesearch.com) | Free name, address, and phone lookups |
-| [That'sThem](https://thatsthem.com) | Free people search — IP, email, phone, name, address correlator |
-| [Epieos](https://epieos.com) | Lookup email/phone — returns Google account info, social profiles, and more |
-| [OSINT Industries](https://osint.industries) | Email/phone → real-time verified account discovery |
-
-### Paid / Enterprise
-
-| Tool | Description |
-|------|-------------|
-| [Pipl](https://pipl.com) | Deep people search engine used by law enforcement and investigators |
-| [Spokeo](https://www.spokeo.com) | People, address, phone, email aggregation |
-| [Intelius](https://www.intelius.com) | Background checks, criminal records, address history |
-| [BeenVerified](https://www.beenverified.com) | People and background check service |
-| [IRB Search](https://www.irbsearch.com) | Professional investigator-grade public records database |
+| Tool | What It Indexes | Free |
+|------|-----------------|------|
+| [Shodan](https://www.shodan.io) | Ports, banners, services, webcams, ICS/SCADA, IoT — the original cyberspace search engine | Freemium |
+| [Censys](https://search.censys.io) | Hosts, certificates, infrastructure — structured query language, excellent API | Freemium |
+| [Criminal IP](https://www.criminalip.io) | AI/ML threat scoring — IP risk, malicious domain detection, VPN/proxy identification | Freemium |
+| [FOFA](https://en.fofa.info) | Chinese-origin cyberspace search — broad IoT and global infrastructure coverage | Freemium |
+| [ZoomEye](https://www.zoomeye.ai) | IP and domain asset discovery with vulnerability correlation | Freemium |
+| [Netlas.io](https://app.netlas.io) | DNS, WHOIS, certs, open ports, banners — clean API, well-documented | Freemium |
+| [FullHunt](https://fullhunt.io) | External attack surface discovery and continuous monitoring | Freemium |
+| [GreyNoise](https://viz.greynoise.io) | Separates mass internet background noise from targeted attack traffic | Freemium |
+| [ONYPHE](https://search.onyphe.io) | Passive + active internet scan data with threat intelligence overlays | Freemium |
+| [GrayhatWarfare](https://grayhatwarfare.com) | Open S3 buckets — exposes publicly accessible cloud storage | Freemium |
+| [BeVigil](https://bevigil.com/search) | Subdomains, URLs, and parameters extracted from **mobile apps** — unique source | Freemium |
+| [ODIN](https://search.odin.io) | Hosts, CVEs, exposed buckets — 10 free searches per day | Freemium |
+| [Shadowserver](https://dashboard.shadowserver.org) | Global cyber threat statistics — botnets, C2s, vulnerable systems | ✅ |
+| [BGP.tools](https://bgp.tools) | Modern BGP and ASN toolkit for network-level reconnaissance | ✅ |
+| [BGP.he.net](https://bgp.he.net) | ASN lookup, BGP routes, and IP block ownership | ✅ |
+| [AbuseIPDB](https://www.abuseipdb.com) | Community-reported IP abuse database | ✅ |
+| [Cisco Talos](https://talosintelligence.com/reputation_center) | IP and domain reputation from one of the world's largest threat intel teams | ✅ |
+| [Cloudflare Radar](https://radar.cloudflare.com) | Internet traffic patterns, route anomalies, technology trends | ✅ |
+| [BrightCloud](https://brightcloud.com/tools/url-ip-lookup.php) | URL and IP reputation with category and threat classification | ✅ |
 
 ---
 
-## 🔑 Username & Social Media (SOCMINT)
+## 03 · Recon Frameworks & Automation
 
-> Hunt usernames across platforms and extract social intelligence.
+> When manual research doesn't scale. These platforms orchestrate dozens of data sources and chain findings automatically.
+
+| Tool | Type | Best For | Free |
+|------|------|----------|------|
+| [SpiderFoot](https://www.spiderfoot.net) | Open-source / SaaS | 200+ module automated recon — domains, IPs, emails, usernames, breach data | ✅ OSS |
+| [Maltego](https://www.maltego.com) | GUI / Cloud | Visual link analysis — map relationships between entities across data sources | Freemium |
+| [Recon-ng](https://github.com/lanmaster53/recon-ng) | CLI Framework | Metasploit-style modular recon — domains, contacts, infrastructure enumeration | ✅ |
+| [theHarvester](https://github.com/laramies/theHarvester) | CLI | Email, subdomain, IP, and URL harvesting from 30+ sources | ✅ |
+| [Osmedeus](https://github.com/j3ssie/osmedeus) | CLI Workflow Engine | Automated offensive recon pipeline — chains multiple tools in sequence | ✅ |
+| [Sn0int](https://github.com/kpcyrd/sn0int) | CLI + Package Manager | Semi-automated OSINT with installable module packages | ✅ |
+| [Photon](https://github.com/s0md3v/Photon) | CLI Web Crawler | Fast extraction of URLs, emails, files, and external links from a target site | ✅ |
+| [Hunchly](https://www.hunch.ly) | Browser Extension | Auto-archives every page visited during investigation — built-in case management | 💲 |
+| [Amass](https://github.com/owasp-amass/amass) | CLI | OWASP-backed deep attack surface enumeration and mapping | ✅ |
+
+---
+
+## 04 · Domain, DNS & Certificate Intel
+
+### Subdomain & DNS Discovery
+
+| Tool | Description | Free |
+|------|-------------|------|
+| [DNSDumpster](https://dnsdumpster.com) | Subdomain discovery, MX/TXT/A records, and visual host map | ✅ |
+| [Subfinder](https://github.com/projectdiscovery/subfinder) | Passive subdomain enumeration from 40+ data sources | ✅ |
+| [SecurityTrails](https://securitytrails.com) | Historical DNS records, IP history, connected infrastructure | Freemium |
+| [ViewDNS.info](https://viewdns.info) | 20+ DNS tools — IP history, reverse IP, WHOIS, port check | ✅ |
+| [MXToolbox](https://mxtoolbox.com) | Email, DNS, blacklist, and SPF/DKIM diagnostics | ✅ |
+
+### WHOIS & Ownership
+
+| Tool | Description | Free |
+|------|-------------|------|
+| [DomainTools WHOIS](https://whois.domaintools.com) | Historical WHOIS with reverse WHOIS — find all domains registered by an entity | Freemium |
+| [who.is](https://who.is) | Clean current WHOIS with registrar and expiry details | ✅ |
+| [Whoxy](https://www.whoxy.com) | Reverse WHOIS by email, name, or company — discover full domain portfolio | Freemium |
+
+### Certificate Transparency
+
+| Tool | Description | Free |
+|------|-------------|------|
+| [crt.sh](https://crt.sh) | Search Certificate Transparency logs — reveals subdomains before DNS propagation | ✅ |
+| [CertKit CT Logs](https://www.certkit.io/tools/ct-logs/) | Faster, better-filtered CT log search than crt.sh | ✅ |
+| [Censys Certificates](https://search.censys.io) | Cert search with host correlation and expiry tracking | Freemium |
+
+### Website Fingerprinting
+
+| Tool | Description | Free |
+|------|-------------|------|
+| [BuiltWith](https://builtwith.com) | CMS, frameworks, analytics, CDN, and vendor technology stacks | Freemium |
+| [Wappalyzer](https://www.wappalyzer.com) | Real-time tech fingerprinting as a browser extension or API | Freemium |
+| [WPScan](https://wpscan.com) | WordPress plugin, theme, user, and CVE scanner | Freemium |
+| [IsLegitSite](https://www.islegitsite.com) | Domain age, reputation, and security posture check | ✅ |
+
+---
+
+## 05 · Social Media & Username OSINT
 
 ### Username Enumeration
 
-| Tool | Description | Free |
-|------|-------------|------|
-| [Sherlock](https://github.com/sherlock-project/sherlock) | Hunt usernames across 400+ platforms | ✅ |
-| [Maigret](https://github.com/soxoj/maigret) | Username OSINT across 3,000+ sites — collects profile info, photos, linked accounts | ✅ |
-| [WhatsMyName](https://whatsmyname.app) | Username enumeration with JSON-based source list | ✅ |
-| [Namechk](https://namechk.com) | Check username/domain availability across platforms | ✅ |
-| [UserSearch.org](https://usersearch.org) | Search usernames across 2,000+ websites | ✅ |
+| Tool | Platforms Covered | Free |
+|------|-------------------|------|
+| [Sherlock](https://github.com/sherlock-project/sherlock) | 400+ platforms | ✅ |
+| [Maigret](https://github.com/soxoj/maigret) | 3,000+ sites — pulls profile photos, bios, and linked accounts | ✅ |
+| [Blackbird](https://github.com/p1ngul1n0/blackbird) | 600+ websites with async verification | ✅ |
+| [WhatsMyName](https://whatsmyname.app) | Community-maintained JSON source list — accurate and regularly updated | ✅ |
+| [Antisocial](https://github.com/rly0nheart/antisocial) | 30+ platforms with three-tier verification (API → browser → HTTP) | ✅ |
+| [Digital Footprint Check](https://www.digitalfootprintcheck.com) | 100+ sites — free, no registration needed | ✅ |
 
-### Social Media Analysis
+### Platform-Specific Tools
 
-| Tool | Description | Free |
-|------|-------------|------|
-| [Social-Searcher](https://www.social-searcher.com) | Real-time social media search with sentiment analysis | Freemium |
-| [Twint](https://github.com/twintproject/twint) | Advanced Twitter/X scraping without API (offline archive analysis) | ✅ |
-| [Telegram OSINT](https://github.com/paulpierre/informer) | Telegram channel/group monitoring and archiving | ✅ |
-| [GeoSocial Footprint](http://geosocialfootprint.com) | Extract geolocation data from social media | ✅ |
-| [Paliscope YOSE](https://www.paliscope.com) | Social media analysis with link charts and connection visualization | 💲 |
-| [ShadowDragon SocialNet](https://shadowdragon.io/socialnet) | Maps social connections across platforms — includes activity timelines | 💲 |
-
-### Platform-Specific
+**X (Twitter)**
 
 | Tool | Description |
 |------|-------------|
-| [LinkedIn OSINT](https://github.com/initstring/linkedin2username) | Generate username lists from LinkedIn company employees |
-| [Reddit Investigator](https://www.redditinvestigator.com) | Analyze Reddit user activity and history |
-| [Imgur OSINT](https://imgur.com/user/) | User image history via profile URLs |
-| [Instagram OSINT](https://github.com/Datalux/Osintgram) | Osintgram — Instagram analysis toolkit |
+| [Xquik](https://xquik.com) | Real-time X data — tweet search, follower extraction, engagement metrics, Space data |
+| [MyTweetAlerts](https://www.mytweetalerts.com) | Custom email alerts based on Twitter keyword monitoring |
+
+**Facebook**
+
+| Tool | Description |
+|------|-------------|
+| [Facebook Friend List Scraper](https://github.com/narkopolo/fb_friend_list_scraper) | Scrape large friend lists without hitting rate limits |
+| [Lookup-ID.com](https://lookup-id.com) | Find Facebook profile, group, and page numeric IDs from URLs |
+| [Find My Facebook ID](https://findmyfbid.in) | Extract Facebook UID for API and graph operations |
+
+**Reddit**
+
+| Tool | Description |
+|------|-------------|
+| [RedditMetis](https://redditmetis.com) | User analysis — posting patterns, active subreddits, karma history |
+| [Reddit Comment Search](https://www.redditcommentsearch.com) | Full comment history search by username |
+| [Universal Scammer List](https://universalscammerlist.com) | Cross-referenced list of known malicious Reddit accounts |
+
+**Telegram**
+
+| Tool | Description |
+|------|-------------|
+| [Telegram Informer](https://github.com/paulpierre/informer) | Monitor and archive Telegram channels and groups |
+
+**Steam**
+
+| Tool | Description |
+|------|-------------|
+| [OSINT-Steam](https://github.com/mbentley3123/osint-steam) | Returns public info — friend lists and possible locations from Steam profiles |
+| [Steam-OSINT](https://github.com/goitdude/Steam-OSINT) | Mutual friends analysis and full friend list mapping |
+
+**GitHub**
+
+| Tool | Description |
+|------|-------------|
+| [github_monitor](https://github.com/0x4D31/github-monitor) | Real-time tracking of user activity, profile changes, block detection, CSV logging |
+| [GithubRecon / gitrecon](https://github.com/GONZOsint/gitrecon) | Lookup users by username or email, pull commit history and associated data |
+| [GitLeak](https://github.com/k4rskin/gitleak) | Extracts hidden emails, commit timezones, and activity patterns via `.patch` metadata |
+| [Shotstars](https://github.com/ARPSyndicate/shotstars) | Repo star statistics with fake star detection and visualization |
+| [TruffleHog](https://github.com/trufflesecurity/trufflehog) | Find leaked secrets and credentials across git history |
+
+**LinkedIn**
+
+| Tool | Description |
+|------|-------------|
+| [linkedin2username](https://github.com/initstring/linkedin2username) | Generate username wordlists from company LinkedIn employee pages |
+
+**WhatsApp**
+
+| Tool | Description |
+|------|-------------|
+| [2Chat](https://2chat.co) | Check if a phone number is registered on WhatsApp |
 
 ---
 
-## 📧 Email Investigation
+## 06 · People & Identity Investigation
 
-> Trace, verify, and profile email addresses.
+### Free Tools
 
-| Tool | Description | Free |
-|------|-------------|------|
-| [Hunter.io](https://hunter.io) | Find and verify professional emails by domain; pattern discovery | Freemium |
-| [Holehe](https://github.com/megadose/holehe) | Check if an email is registered on 120+ platforms | ✅ |
-| [EmailRep.io](https://emailrep.io) | Email reputation scoring, domain age, breach exposure | Freemium |
-| [Have I Been Pwned](https://haveibeenpwned.com) | Check email addresses against known data breaches | ✅ |
-| [Epieos](https://epieos.com) | Email → Google account lookup, social profiles, breach history | Freemium |
-| [h8mail](https://github.com/khast3x/h8mail) | Email OSINT and breach hunting tool — integrates with multiple APIs | ✅ |
-| [GHunt](https://github.com/mxrch/GHunt) | Google account investigation via email — returns name, last seen, photos, maps | ✅ |
-| [Infoga](https://github.com/m4ll0k/Infoga) | Email information gathering from public sources | ✅ |
-| [Email Header Analyzer](https://mxtoolbox.com/EmailHeaders.aspx) | Parse email headers to trace sending path and origin | ✅ |
-| [theHarvester](https://github.com/laramies/theHarvester) | Mass email harvesting from domain-based searches | ✅ |
+| Tool | Description |
+|------|-------------|
+| [That'sThem](https://thatsthem.com) | Free correlator — links IP, email, phone, name, and address into unified profiles |
+| [TruePeopleSearch](https://www.truepeoplesearch.com) | US people finder — address history, relatives, phone |
+| [FastPeopleSearch](https://www.fastpeoplesearch.com) | Free US name, address, and phone lookups |
+| [FamilyTreeNow](https://www.familytreenow.com) | Genealogy and contact info — useful for establishing historical residence chains |
+| [Epieos](https://epieos.com) | Email or phone → Google account info, social profiles, breach exposure |
+| [OSINT Industries](https://osint.industries) | Real-time identity resolution — email or phone → verified accounts, images, crypto wallets |
 
----
+### Paid / Professional Grade
 
-## 📞 Phone Number Intelligence
-
-> Reverse lookup, carrier identification, and social profile linking via phone numbers.
-
-| Tool | Description | Free |
-|------|-------------|------|
-| [PhoneInfoga](https://github.com/sundowndev/phoneinfoga) | Advanced phone number recon — format validation, carrier, country, social profiles | ✅ |
-| [Truecaller](https://www.truecaller.com) | Reverse phone lookup with spam detection | Freemium |
-| [NumVerify](https://numverify.com) | Phone number validation, carrier, location via API | Freemium |
-| [Epieos](https://epieos.com) | Phone → linked social accounts and profile discovery | Freemium |
-| [CallerIDTest](https://www.calleridtest.com) | Caller ID lookup and identification | ✅ |
-| [TextMagic](https://www.textmagic.com/free-tools/phone-number-lookup) | Carrier and country lookup | Freemium |
-| [OSINT Industries](https://osint.industries) | Phone → real-time discovery of all linked accounts and platforms | Freemium |
+| Tool | Description |
+|------|-------------|
+| [Pipl](https://pipl.com) | Deep people search used by law enforcement and corporate investigators |
+| [Spokeo](https://www.spokeo.com) | People, address, phone, and email aggregator |
+| [BeenVerified](https://www.beenverified.com) | Background checks, criminal records, address history |
+| [Intelius](https://www.intelius.com) | Professional background research service |
 
 ---
 
-## 🌐 Domain, DNS & IP Intelligence
+## 07 · Email Intelligence
 
-> Map internet infrastructure, trace domain ownership, and analyze network assets.
-
-### DNS & WHOIS
-
-| Tool | Description | Free |
+| Tool | What It Does | Free |
 |------|-------------|------|
-| [DNSDumpster](https://dnsdumpster.com) | DNS reconnaissance — subdomains, MX, TXT, host maps | ✅ |
-| [SecurityTrails](https://securitytrails.com) | Historical DNS, WHOIS, and IP data | Freemium |
-| [Whois.domaintools.com](https://whois.domaintools.com) | Advanced WHOIS with historical ownership and reverse WHOIS | Freemium |
-| [ViewDNS.info](https://viewdns.info) | 20+ DNS tools — IP history, reverse IP, WHOIS | ✅ |
-| [crt.sh](https://crt.sh) | SSL/TLS certificate transparency search — reveals subdomains | ✅ |
-| [Subfinder](https://github.com/projectdiscovery/subfinder) | Fast passive subdomain enumeration tool | ✅ |
-| [Amass](https://github.com/owasp-amass/amass) | OWASP project for in-depth attack surface mapping | ✅ |
-
-### IP Intelligence
-
-| Tool | Description | Free |
-|------|-------------|------|
-| [IPinfo.io](https://ipinfo.io) | IP geolocation, ASN, carrier, VPN detection | Freemium |
-| [AbuseIPDB](https://www.abuseipdb.com) | IP reputation database — check if an IP is associated with abuse | ✅ |
-| [BGP.he.net](https://bgp.he.net) | ASN, BGP routing, and IP block ownership lookup | ✅ |
-| [Robtex](https://www.robtex.com) | IP/domain analysis including shared hosting and route data | ✅ |
-| [GreyNoise](https://www.greynoise.io) | Distinguish targeted attacks from internet-wide noise | Freemium |
-| [Shodan InternetDB](https://internetdb.shodan.io) | Fast IP intelligence — open ports, vulnerabilities, hostnames | ✅ |
-
-### Certificate & Infrastructure
-
-| Tool | Description | Free |
-|------|-------------|------|
-| [Censys](https://censys.io) | Internet-wide scanning — certificates, hosts, and infrastructure | Freemium |
-| [crt.sh](https://crt.sh) | Certificate transparency log search | ✅ |
-| [MXToolbox](https://mxtoolbox.com) | Email, DNS, blacklist, and network diagnostics | ✅ |
+| [Hunter.io](https://hunter.io) | Find professional emails by domain; pattern discovery and bulk verification | Freemium |
+| [Holehe](https://github.com/megadose/holehe) | Check if an email is registered across 120+ platforms — passive, no alerts sent | ✅ |
+| [GHunt](https://github.com/mxrch/GHunt) | Deep Google account profiling from email — name, last active, associated services | ✅ |
+| [h8mail](https://github.com/khast3x/h8mail) | CLI breach hunting — aggregates HIBP, Snusbase, and custom sources | ✅ |
+| [EmailRep.io](https://emailrep.io) | Reputation and risk score for email addresses | Freemium |
+| [Have I Been Pwned](https://haveibeenpwned.com) | The definitive breach check — 14B+ records indexed | ✅ |
+| [Epieos](https://epieos.com) | Email → Google account lookup and social profile correlation | Freemium |
+| [Email Hippo](https://tools.emailhippo.com) | Validate whether an email address actually exists on the mail server | Freemium |
+| [Email Format](https://email-format.com) | Discover email naming patterns used by specific companies | ✅ |
+| [Email Permutator](https://www.emailpermutator.com) | Generate likely email variations from first name, last name, and domain | ✅ |
+| [MXToolbox Email Headers](https://mxtoolbox.com/EmailHeaders.aspx) | Parse email headers to trace routing path and sending infrastructure | ✅ |
 
 ---
 
-## 🖥️ Internet-Connected Device Search
-
-> Search engines that index internet-facing devices, services, and systems.
+## 08 · Phone Number Intelligence
 
 | Tool | Description | Free |
 |------|-------------|------|
-| [Shodan](https://www.shodan.io) | The original IoT/device search engine — webcams, routers, ICS/SCADA, servers | Freemium |
-| [Censys](https://censys.io) | Full internet scanning — hosts, certificates, services | Freemium |
-| [Cyble ODIN](https://cyble.com/solutions/odin) | Exposed bucket detection, IP scanning, real-time vulnerability tracking | 💲 |
-| [FOFA](https://fofa.info) | Chinese internet asset search engine with broad IoT coverage | Freemium |
-| [ZoomEye](https://www.zoomeye.org) | Cyberspace search engine — IPs, ports, services, vulnerabilities | Freemium |
-| [Netlas.io](https://netlas.io) | Internet intelligence — DNS, WHOIS, certificates, open ports, banners | Freemium |
-| [Binary Edge](https://www.binaryedge.io) | Attack surface discovery and internet scanning platform | Freemium |
-| [GreyNoise](https://www.greynoise.io) | Internet scanner context — separates noise from targeted attacks | Freemium |
-| [Onyphe](https://www.onyphe.io) | Cyber defense search engine with passive and active scan data | Freemium |
+| [PhoneInfoga](https://github.com/sundowndev/phoneinfoga) | Advanced recon — carrier, country, line type, social profile links | ✅ |
+| [Epieos](https://epieos.com) | Phone → linked accounts and platform presence | Freemium |
+| [Truecaller](https://www.truecaller.com) | Reverse phone lookup with caller history and spam flagging | Freemium |
+| [NumVerify](https://numverify.com) | Carrier, line type, and country validation via API | Freemium |
+| [OSINT Industries](https://osint.industries) | Phone → real-time verified account discovery across platforms | Freemium |
+| [2Chat](https://2chat.co) | Confirm WhatsApp registration status for any number | ✅ |
 
 ---
 
-## 🗺️ Geolocation, Maps & Satellite Imagery
+## 09 · Company & Corporate Intelligence
 
-> Geolocate images, verify locations, and conduct satellite-based intelligence.
+### Public Records & Filings
 
-### Geolocation & Verification
-
-| Tool | Description | Free |
-|------|-------------|------|
-| [Google Earth Pro](https://earth.google.com) | Satellite imagery with historical timeline slider and measurement tools | ✅ |
-| [SunCalc](https://www.suncalc.org) | Analyze sun position and shadows to verify when/where a photo was taken | ✅ |
-| [ShadowCalculator](http://shadowcalculator.eu) | Calculate shadow length and direction from sun position | ✅ |
-| [GeoGuessr](https://www.geoguessr.com) | Training tool for visual geolocation skill building | Freemium |
-| [Overpass Turbo](https://overpass-turbo.eu) | Query OpenStreetMap data with custom filters | ✅ |
-| [Maxar Imagery](https://www.maxar.com) | Commercial satellite imagery used by journalists and intelligence analysts | 💲 |
-| [Sentinel Hub](https://www.sentinel-hub.com) | ESA satellite imagery for change detection and area analysis | Freemium |
-
-### Mapping Tools
-
-| Tool | Description | Free |
-|------|-------------|------|
-| [What3Words](https://what3words.com) | Precise 3m² location encoding | ✅ |
-| [MapChecking](https://www.mapchecking.com) | Estimate crowd size from satellite imagery | ✅ |
-| [Wikimapia](https://wikimapia.org) | Collaboratively tagged satellite map — useful for identifying structures | ✅ |
-| [Windy](https://www.windy.com) | Wind, weather, and storm tracking — for maritime/aviation OSINT | ✅ |
-| [MarineTraffic](https://www.marinetraffic.com) | Real-time vessel tracking and port intelligence | Freemium |
-| [FlightRadar24](https://www.flightradar24.com) | Real-time aircraft tracking and flight history | Freemium |
-| [ADS-B Exchange](https://www.adsbexchange.com) | Unfiltered aircraft tracking — no removal requests unlike FR24 | ✅ |
-
----
-
-## 🖼️ Image, Video & Metadata Analysis
-
-> Reverse search images, verify authenticity, and extract hidden metadata.
-
-### Reverse Image Search
-
-| Tool | Description | Free |
-|------|-------------|------|
-| [Google Reverse Image](https://images.google.com) | Largest image index for finding origins and copies | ✅ |
-| [Yandex Images](https://yandex.com/images) | Best for facial recognition and Eastern European sources | ✅ |
-| [TinEye](https://tineye.com) | Find where an image appears online with history | Freemium |
-| [Bing Visual Search](https://www.bing.com/visualsearch) | Object and scene recognition within images | ✅ |
-| [PimEyes](https://pimeyes.com) | Face recognition search engine — finds where a face appears online | Freemium |
-
-### Video Verification
-
-| Tool | Description | Free |
-|------|-------------|------|
-| [InVID / WeVerify](https://www.invid-project.eu) | Video verification plugin — keyframe extraction, metadata, reverse search | ✅ |
-| [YouTube DataViewer](https://citizenevidence.amnestytech.org) | Extract video metadata and reverse search thumbnails | ✅ |
-| [Forensically](https://29a.ch/photo-forensics) | Image forensics — clone detection, noise analysis, error level analysis | ✅ |
-
-### Metadata & Forensics
-
-| Tool | Description | Free |
-|------|-------------|------|
-| [ExifTool](https://exiftool.org) | Gold-standard metadata extractor — camera, GPS, timestamps | ✅ |
-| [Jeffrey's Exif Viewer](http://exif.regex.info/exif.cgi) | Web-based image EXIF reader | ✅ |
-| [FotoForensics](https://fotoforensics.com) | Error Level Analysis (ELA) for detecting image manipulation | ✅ |
-| [Ghiro](https://www.getghiro.org) | Automated image forensics analysis platform | ✅ |
-
----
-
-## 🕵️ Dark Web & Tor Intelligence
-
-> Investigate hidden services, monitor underground forums, and index .onion content.
-
-> ⚠️ Always use Tor Browser + VPN + an isolated VM/sandbox environment when accessing dark web resources.
-
-| Tool | Description | Free |
-|------|-------------|------|
-| [Ahmia](https://ahmia.fi) | Clearnet search engine for Tor hidden services | ✅ |
-| [Dark Search](https://darksearch.io) | Dark web search engine accessible without Tor | ✅ |
-| [OnionSearch](https://github.com/megadose/OnionSearch) | Dark web scraper across multiple .onion search engines | ✅ |
-| [Intelligence X](https://intelx.io) | Search darknet, Tor, I2P, data breaches, leaked documents | Freemium |
-| [DarkOwl](https://www.darkowl.com) | Enterprise dark web monitoring platform | 💲 |
-| [Flashpoint](https://flashpoint.io) | Deep/dark web intelligence for threat actors, fraud, and ransomware tracking | 💲 |
-| [Searchlight Cyber](https://searchlight.ai) | Dark web monitoring with threat actor profiling | 💲 |
-| [KELA](https://ke-la.com) | Cybercrime intelligence — dark web forums, ransomware tracking | 💲 |
-| [Tor2Web Gateways](https://www.tor2web.fi) | Browse .onion sites without Tor (not anonymous — for research only) | ✅ |
-
----
-
-## 💀 Data Breaches & Credential Leaks
-
-> Identify compromised credentials, exposed data, and breach exposure.
-
-| Tool | Description | Free |
-|------|-------------|------|
-| [Have I Been Pwned](https://haveibeenpwned.com) | The definitive email and phone breach checker — 12B+ records | ✅ |
-| [DeHashed](https://dehashed.com) | Search billions of breach records by email, username, IP, address, phone | Freemium |
-| [IntelligenceX](https://intelx.io) | Search darknet leaks, pastes, and breach data | Freemium |
-| [LeakCheck](https://leakcheck.io) | Email/password leak search with API | Freemium |
-| [Snusbase](https://snusbase.com) | Fast breach data search across multiple databases | 💲 |
-| [Intelligence Security](https://intelligencesecurity.io) | 500B+ records from breaches, stealer logs, and dark web sources | Freemium |
-| [RaidForums Archive](https://raidforums.com) | Archived breach and leak forum data | Research |
-| [h8mail](https://github.com/khast3x/h8mail) | CLI breach hunting with HIBP, Snusbase, and other integrations | ✅ |
-| [Breach Directory](https://breachdirectory.org) | Free partial password and email breach check | ✅ |
-
----
-
-## 🏢 Company, Business & Financial Intel
-
-> Research organizations, leadership, finances, and corporate structures.
-
-### Company Records
-
-| Tool | Description | Free |
-|------|-------------|------|
-| [OpenCorporates](https://opencorporates.com) | Largest open database of company information — 200M+ companies globally | ✅ |
-| [Companies House (UK)](https://www.gov.uk/get-information-about-a-company) | UK company filings, directors, and financial statements | ✅ |
-| [EDGAR (US SEC)](https://www.sec.gov/edgar) | US public company filings — 10-K, 10-Q, insider transactions | ✅ |
-| [Opencnam](https://www.opencnam.com) | Caller ID and business entity lookup | Freemium |
-| [Offshore Leaks Database](https://offshoreleaks.icij.org) | ICIJ offshore entity and shell company database (Panama/Pandora Papers) | ✅ |
-| [OpenSanctions](https://www.opensanctions.org) | Sanctions lists, PEP databases, and watchlists — 30+ sources | ✅ |
+| Tool | Jurisdiction / Coverage | Free |
+|------|------------------------|------|
+| [OpenCorporates](https://opencorporates.com) | 200M+ companies worldwide — largest open corporate database | ✅ |
+| [Companies House](https://www.gov.uk/get-information-about-a-company) | UK — filings, directors, financial statements, PSC register | ✅ |
+| [SEC EDGAR](https://www.sec.gov/edgar) | US public companies — 10-K, insider transactions, executive compensation | ✅ |
+| [Offshore Leaks Database](https://offshoreleaks.icij.org) | ICIJ Panama/Pandora Papers — offshore entities and shell companies | ✅ |
+| [OpenSanctions](https://www.opensanctions.org) | Sanctions lists, PEP databases, and watchlists from 30+ sources | ✅ |
+| [OCCRP Aleph](https://aleph.occrp.org) | Leaked documents, court records, corporate filings | ✅ |
 
 ### Business Intelligence
 
 | Tool | Description | Free |
 |------|-------------|------|
-| [Crunchbase](https://www.crunchbase.com) | Startup funding, investors, and executive profiles | Freemium |
-| [LinkedIn](https://www.linkedin.com) | Professional network — org charts, job roles, employee discovery | Freemium |
-| [Glassdoor](https://www.glassdoor.com) | Employee intelligence, org culture, executive profiles | Freemium |
-| [ZoomInfo](https://www.zoominfo.com) | B2B company and contact intelligence | 💲 |
-| [Hunter.io](https://hunter.io) | Domain-based email pattern discovery for organizations | Freemium |
-| [LinkedIn2Username](https://github.com/initstring/linkedin2username) | Generate targeted username lists from company LinkedIn pages | ✅ |
-| [Built With](https://builtwith.com) | Technology stack fingerprinting for websites | Freemium |
-| [Wappalyzer](https://www.wappalyzer.com) | Browser extension for tech stack detection | ✅ |
+| [Crunchbase](https://www.crunchbase.com) | Funding rounds, investors, acquisitions, executive team profiles | Freemium |
+| [LinkedIn](https://www.linkedin.com) | Org charts, employee discovery, role history, company structure | Freemium |
+| [Glassdoor](https://www.glassdoor.com) | Internal culture intel, executive profiles, salary data | Freemium |
+| [BuiltWith](https://builtwith.com) | Technology vendor stack intelligence per domain | Freemium |
+| [linkedin2username](https://github.com/initstring/linkedin2username) | Harvest employee usernames from LinkedIn company pages | ✅ |
 
 ---
 
-## 🔗 Blockchain & Cryptocurrency Tracking
+## 10 · Code & Repository Intelligence
 
-> Trace wallet transactions, identify entities, and investigate on-chain activity.
+> Developers routinely expose credentials, API keys, internal endpoints, and PII in public repositories. This category is consistently high-yield for security researchers.
+
+| Tool | Description | Free |
+|------|-------------|------|
+| [grep.app](https://grep.app) | Regex search across all public GitHub repos — fastest secret-hunting path | ✅ |
+| [Searchcode](https://searchcode.com) | 75B+ lines of public source code indexed across GitHub, GitLab, Bitbucket | ✅ |
+| [GitHub Advanced Search](https://github.com/search/advanced) | Native GitHub filtering by language, date, user, org, file path | ✅ |
+| [TruffleHog](https://github.com/trufflesecurity/trufflehog) | Find leaked secrets and credentials across git history | ✅ |
+| [Gitrob](https://github.com/michenriksen/gitrob) | Scan GitHub orgs and users for sensitive file exposure | ✅ |
+| [GithubRecon / gitrecon](https://github.com/GONZOsint/gitrecon) | Collect user/org metadata — emails, activity, and repo history | ✅ |
+| [GitLeak](https://github.com/k4rskin/gitleak) | Extract hidden emails and commit timestamps from `.patch` metadata | ✅ |
+| [github_monitor](https://github.com/0x4D31/github-monitor) | Alert on profile/repo changes with email notifications and CSV logging | ✅ |
+| [Shotstars](https://github.com/ARPSyndicate/shotstars) | Fake star detection — evaluate credibility of a repo before trusting it | ✅ |
+
+---
+
+## 11 · News, Archives & Web History
+
+| Tool | Description | Free |
+|------|-------------|------|
+| [Wayback Machine](https://web.archive.org) | Internet Archive — snapshots of websites from 1996 onwards | ✅ |
+| [Archive.today](https://archive.ph) | On-demand page archiver — preserves evidence before pages are removed | ✅ |
+| [CachedView](https://cachedview.nl) | Access Google, Bing, and Wayback cached versions side by side | ✅ |
+| [GDELT Project](https://www.gdeltproject.org) | Global news event database — 100+ languages, updated every 15 minutes | ✅ |
+| [MediaCloud](https://mediacloud.org) | Academic media tracking and narrative analysis platform | ✅ |
+| [Factiva](https://professional.dowjones.com/factiva) | Premium historical news archive — 30,000+ sources going back decades | 💲 |
+
+---
+
+## 12 · Breach & Credential Intelligence
+
+| Tool | Coverage | Free |
+|------|----------|------|
+| [Have I Been Pwned](https://haveibeenpwned.com) | 14B+ records — the gold standard for breach notification | ✅ |
+| [DeHashed](https://dehashed.com) | Search billions of breach records — email, username, IP, phone, address | Freemium |
+| [Intelligence X](https://intelx.io) | Darknet leaks, pastes, breach dumps, and WHOIS history | Freemium |
+| [LeakCheck](https://leakcheck.io) | Email and password breach search with clean API | Freemium |
+| [Breach Directory](https://breachdirectory.org) | Free partial breach check — no registration required | ✅ |
+| [h8mail](https://github.com/khast3x/h8mail) | CLI breach aggregator — queries multiple sources simultaneously | ✅ |
+| [StealSeek](https://stealseek.io) | Stealer log and breach database search | Freemium |
+| [CredenShow](https://credenshow.com) | Compromised credential identification before attackers use them | Freemium |
+| [HEROIC](https://heroic.com) | Dark web credential exposure scan with free tier | Freemium |
+| [Venacus](https://venacus.com) | Breach search with email monitoring alerts | Freemium |
+
+---
+
+## 13 · Threat Actor & APT Tracking
+
+| Resource | What It Tracks | Free |
+|----------|----------------|------|
+| [MISP Galaxy](https://www.misp-project.org/galaxy.html) | Adversary groups, tools, and TTPs — used by threat intel teams globally | ✅ |
+| [Malpedia](https://malpedia.caad.fkie.fraunhofer.de) | Malware families linked to specific threat actors | ✅ |
+| [APT Groups Spreadsheet](https://docs.google.com/spreadsheets/d/1H9_xaxQHpWaa4O_Son4Gx0YOIzlrKDeFEOHyv01mUyw) | Community-maintained tracker with sponsored nations and tool mapping | ✅ |
+| [ETDA Threat Actor Encyclopedia](https://apt.etda.or.th/cgi-bin/aptgroups.cgi) | Searchable threat actor database with associated tools | ✅ |
+| [FortiGuard Threat Encyclopedia](https://www.fortiguard.com/threat-encyclopedia) | Actor TTPs, attack timelines, and tool mapping | ✅ |
+| [SOCRadar Labs](https://labs.socradar.com) | Actor profiles, recent campaigns, and TTP breakdowns | Freemium |
+| [Dark Web Informer](https://darkwebinformer.com) | Tracking 850+ threat actors — forum posts, leaks, ransomware announcements | ✅ |
+| [MalwareBazaar](https://bazaar.abuse.ch/browse/) | Search and download confirmed malware samples by hash, family, or tag | ✅ |
+| [YARAify](https://yaraify.abuse.ch/scan/) | Community YARA engine for malware pattern matching | ✅ |
+| [Abusech Hunting](https://hunting.abuse.ch) | Single query across all abuse.ch platforms | ✅ |
+| [BreachHQ](https://breachhq.com) | Comprehensive listing of known cybercriminal and APT groups | ✅ |
+
+---
+
+## 14 · Live Cyber Threat Maps
+
+> Real-time attack visualization — useful for situational awareness and understanding global threat patterns.
+
+| Tool | Notable For |
+|------|-------------|
+| [Check Point Live Map](https://threatmap.checkpoint.com) | Ransomware, infostealers, and cloud attack tracking |
+| [Kaspersky Cyberthreat Map](https://cybermap.kaspersky.com) | Real-time global attack telemetry with per-country breakdown |
+| [Radware Live Threat Map](https://livethreatmap.radware.com) | DDoS and application layer attack visualization |
+| [Imperva Threat Map](https://www.imperva.com/cyber-threat-attack-map/) | Bot attacks, DDoS, and hacking attempt flows |
+| [FortiGuard Outbreak Alerts](https://www.fortiguard.com/outbreak-alert) | Active outbreak tracking with CVE and vendor mapping |
+| [Cloudflare Radar](https://radar.cloudflare.com) | Traffic trends, BGP route leaks, and internet disruption tracking |
+
+---
+
+## 15 · Geospatial & Satellite Intelligence
+
+### Imagery & Verification
+
+| Tool | Description | Free |
+|------|-------------|------|
+| [Google Earth Pro](https://earth.google.com) | Historical satellite imagery with timeline slider, measurement tools, and export | ✅ |
+| [Sentinel Hub](https://www.sentinel-hub.com) | ESA imagery — multi-spectral analysis and change detection | Freemium |
+| [SunCalc](https://www.suncalc.org) | Sun position and shadow analysis — verify when and where a photo was taken | ✅ |
+| [ShadowCalculator](http://shadowcalculator.eu) | Shadow direction and length from sun angle and date | ✅ |
+| [MapChecking](https://www.mapchecking.com) | Crowd size estimation from satellite imagery | ✅ |
+
+### Tracking & Mapping
+
+| Tool | Description | Free |
+|------|-------------|------|
+| [Overpass Turbo](https://overpass-turbo.eu) | Advanced OpenStreetMap queries — find infrastructure, landmarks, custom features | ✅ |
+| [Wikimapia](https://wikimapia.org) | Collaboratively tagged map — identifies unlabeled structures and locations | ✅ |
+| [What3Words](https://what3words.com) | Precise 3m² global location encoding | ✅ |
+| [MarineTraffic](https://www.marinetraffic.com) | Real-time vessel position, port intelligence, voyage history | Freemium |
+| [FlightRadar24](https://www.flightradar24.com) | Real-time civil aircraft tracking | Freemium |
+| [ADS-B Exchange](https://www.adsbexchange.com) | **Unfiltered** aircraft tracking — government and military flights included, no removal requests | ✅ |
+| [Windy](https://www.windy.com) | Wind, storm, and weather data — supports maritime and aviation OSINT | ✅ |
+| [GeoGuessr](https://www.geoguessr.com) | Train visual geolocation skills — terrain, road signs, architecture recognition | Freemium |
+
+---
+
+## 16 · Image & Video Forensics
+
+### Reverse Image Search
+
+| Tool | Best For | Free |
+|------|----------|------|
+| [Google Images](https://images.google.com) | Widest web coverage for tracing image origins | ✅ |
+| [Yandex Images](https://yandex.com/images) | Facial recognition — best for finding people across photo databases | ✅ |
+| [TinEye](https://tineye.com) | Exact match history with earliest appearance dates | Freemium |
+| [Bing Visual Search](https://www.bing.com/visualsearch) | Object and scene recognition within images | ✅ |
+| [PimEyes](https://pimeyes.com) | AI face recognition — finds where a face appears online including altered images | Freemium |
+| [Lenso.ai](https://lenso.ai) | AI reverse image with facial recognition and copyright tracing | Freemium |
+
+### Video Verification
+
+| Tool | Description | Free |
+|------|-------------|------|
+| [InVID / WeVerify](https://www.invid-project.eu) | Keyframe extraction, reverse image search, metadata pull for video verification | ✅ |
+| [YouTube DataViewer](https://citizenevidence.amnestytech.org) | Extract exact upload timestamp and reverse search video thumbnails | ✅ |
+| [Forensically](https://29a.ch/photo-forensics) | ELA, clone detection, noise analysis — all in-browser, no upload required | ✅ |
+
+### Metadata & Authenticity Analysis
+
+| Tool | Description | Free |
+|------|-------------|------|
+| [ExifTool](https://exiftool.org) | The gold standard — reads and writes metadata for any file format | ✅ |
+| [FotoForensics](https://fotoforensics.com) | Error Level Analysis for detecting image manipulation | ✅ |
+| [Jeffrey's Exif Viewer](http://exif.regex.info/exif.cgi) | Web-based EXIF reader — no software install needed | ✅ |
+
+---
+
+## 17 · Document & Metadata Extraction
+
+> Public documents frequently contain hidden metadata: author names, usernames, internal paths, GPS coordinates, and software version strings.
+
+| Tool | File Types Supported | Free |
+|------|---------------------|------|
+| [FOCA](https://github.com/ElevenPaths/FOCA) | PDF, DOC, XLS, PPT, PPTX — searches Google/Bing for docs then extracts metadata | ✅ |
+| [ExifTool](https://exiftool.org) | All formats — most comprehensive metadata extraction tool available | ✅ |
+| [Metagoofil](https://github.com/laramies/metagoofil) | Finds and downloads public documents from a target domain then extracts metadata | ✅ |
+| [OCCRP Aleph](https://aleph.occrp.org) | Leak-focused document search with entity extraction and cross-referencing | ✅ |
+| [Scribd](https://www.scribd.com) | Large document and slide repository for background research | Freemium |
+
+**Dorks for hunting exposed documents:**
+```
+site:target.com filetype:pdf
+site:target.com filetype:xlsx OR filetype:docx OR filetype:csv
+site:target.com filetype:pptx "internal" OR "confidential"
+site:target.com filetype:env OR filetype:log OR filetype:sql OR filetype:bak
+```
+
+---
+
+## 18 · Blockchain & Crypto Tracing
+
+> On-chain data is permanently public. Every wallet transaction, contract interaction, and token transfer is permanently traceable.
 
 ### Blockchain Explorers
 
-| Tool | Description | Chains |
-|------|-------------|--------|
-| [Etherscan](https://etherscan.io) | Most popular Ethereum block explorer — transactions, tokens, contracts | ETH |
-| [Blockchain.com Explorer](https://www.blockchain.com/explorer) | Bitcoin transaction and address tracking | BTC |
-| [Blockchair](https://blockchair.com) | Multi-chain explorer with privacy scores | BTC, ETH, many more |
-| [Solscan](https://solscan.io) | Solana transaction and token explorer | SOL |
-| [Tronscan](https://tronscan.org) | Tron blockchain explorer | TRX |
+| Explorer | Chain |
+|----------|-------|
+| [Etherscan](https://etherscan.io) | Ethereum — transactions, token transfers, smart contracts |
+| [Blockchain.com Explorer](https://www.blockchain.com/explorer) | Bitcoin — addresses, transactions, mempool |
+| [Blockchair](https://blockchair.com) | Multi-chain — BTC, ETH, BCH, LTC, and more with privacy scoring |
+| [Solscan](https://solscan.io) | Solana — transactions, tokens, DeFi activity |
+| [Tronscan](https://tronscan.org) | Tron — TRX and TRC-20 tokens |
 
 ### Intelligence & Entity Mapping
 
 | Tool | Description | Free |
 |------|-------------|------|
-| [Arkham Intelligence](https://www.arkhamintelligence.com) | AI-powered entity mapping — tags wallets to exchanges, funds, individuals | Freemium |
-| [Chainalysis](https://www.chainalysis.com) | Enterprise blockchain analytics used by law enforcement globally | 💲 |
-| [Elliptic](https://www.elliptic.co) | Crypto compliance and transaction monitoring | 💲 |
-| [Crystal Blockchain](https://crystalblockchain.com) | Visual transaction tracing and risk scoring | 💲 |
-| [Breadcrumbs](https://www.breadcrumbs.app) | Free on-chain investigation tool with visual graph | Freemium |
-| [Glassnode](https://glassnode.com) | On-chain metrics and analytics for BTC, ETH | Freemium |
-| [Nansen](https://www.nansen.ai) | Smart money wallet labeling and on-chain activity analysis | 💲 |
+| [Arkham Intelligence](https://www.arkhamintelligence.com) | AI entity mapping — tags wallets to known exchanges, funds, individuals, and smart money | Freemium |
+| [Breadcrumbs](https://www.breadcrumbs.app) | Free visual on-chain investigation and wallet profiling | Freemium |
+| [Glassnode](https://glassnode.com) | On-chain metrics — holder behavior, exchange flows, accumulation patterns | Freemium |
+| [Chainalysis](https://www.chainalysis.com) | Enterprise-grade tracing used by law enforcement agencies globally | 💲 |
+| [Elliptic](https://www.elliptic.co) | Crypto compliance and transaction risk scoring | 💲 |
+| [Crystal Blockchain](https://crystalblockchain.com) | Visual transaction graph tracing with risk attribution | 💲 |
 
 ---
 
-## 🔎 Search Engines & Google Dorking
+## 19 · Dark Web & Underground Intel
 
-> Advanced search operators and alternative indexes for finding what's not easily found.
+> ⚠️ Always use Tor Browser + VPN + an isolated virtual machine. Never conduct dark web OSINT from a host OS or real identity.
 
-### Google Dorking
+| Tool | Description | Free |
+|------|-------------|------|
+| [Ahmia](https://ahmia.fi) | Clearnet-accessible Tor hidden service search — indexes .onion sites, respects robots.txt | ✅ |
+| [Intelligence X](https://intelx.io) | Search darknet, Tor, I2P, Freenet, data breaches, and archived leaks | Freemium |
+| [Dark Web Informer](https://darkwebinformer.com) | Tracks 850+ threat actors — forum posts, leak announcements, ransomware updates | ✅ |
+| [MalwareBazaar](https://bazaar.abuse.ch) | Download and analyze confirmed malware samples by hash, family, or tag | ✅ |
+| [Abusech Hunting](https://hunting.abuse.ch) | Single query across all abuse.ch platforms simultaneously | ✅ |
+| [Shadowserver](https://dashboard.shadowserver.org) | Global botnet and C2 infrastructure monitoring | ✅ |
 
-| Resource | Description |
-|----------|-------------|
-| [Google Hacking Database (GHDB)](https://www.exploit-db.com/google-hacking-database) | Largest collection of Google dork queries |
-| [DorkSearch](https://dorksearch.com) | Pre-built dork query generator |
-| [DorkGenius](https://dorkgenius.com) | AI-assisted Google dork creation |
-| [Advangle](http://advangle.com) | Visual Google/Bing dork builder |
-
-**Essential Google Dork Operators:**
-
+**Isolation checklist before any dark web OSINT session:**
 ```
-site:          — restrict to domain       site:example.com
-filetype:      — specific file types      filetype:pdf "confidential"
-intitle:       — words in page title      intitle:"index of" passwords
-inurl:         — words in URL             inurl:admin login
-intext:        — words in body text       intext:"api_key"
-cache:         — Google's cached version  cache:example.com
-link:          — pages linking to URL     link:example.com
-"exact phrase" — exact match              "john smith" "new york"
--exclude       — exclude term             -site:example.com
-OR             — either term              hacking OR cracking
-```
-
-### Alternative Search Engines
-
-| Tool | Description |
-|------|-------------|
-| [Yandex](https://yandex.com) | Strong for image reverse search and Eastern European coverage |
-| [Bing](https://www.bing.com) | Different crawl index than Google — often finds different results |
-| [DuckDuckGo](https://duckduckgo.com) | Privacy-respecting — good for unfiltered searches |
-| [Baidu](https://www.baidu.com) | Essential for investigations involving Chinese targets |
-| [Startpage](https://www.startpage.com) | Anonymous Google proxy |
-| [Wayback Machine](https://web.archive.org) | Historical website snapshots dating back to 1996 |
-| [PublicWWW](https://publicwww.com) | Search websites by source code snippets, wallet addresses, tracking IDs |
-| [Pastebin Search](https://pastebin.com) | Search paste dumps for leaked data, keys, credentials |
-| [grep.app](https://grep.app) | Search across GitHub repos with regex |
-
----
-
-## 📡 Threat Intelligence Platforms
-
-> Real-time cyber threat data, IOC enrichment, and adversary tracking.
-
-| Tool | Description | Free |
-|------|-------------|------|
-| [VirusTotal](https://www.virustotal.com) | Analyze URLs, files, IPs, and domains against 70+ AV engines | ✅ |
-| [Recorded Future](https://www.recordedfuture.com) | Real-time threat intelligence with ML — dark web, CVEs, actor tracking | 💲 |
-| [AlienVault OTX](https://otx.alienvault.com) | Community-driven threat intelligence sharing platform | ✅ |
-| [MISP](https://www.misp-project.org) | Open-source threat intelligence sharing platform | ✅ |
-| [ThreatFox](https://threatfox.abuse.ch) | IOC sharing platform by abuse.ch | ✅ |
-| [URLscan.io](https://urlscan.io) | Scan and analyze websites — screenshots, requests, behavior | ✅ |
-| [ANY.RUN](https://any.run) | Interactive online malware sandbox | Freemium |
-| [Hybrid Analysis](https://www.hybrid-analysis.com) | Free malware analysis sandbox | ✅ |
-| [AbuseIPDB](https://www.abuseipdb.com) | Community IP reputation database | ✅ |
-| [IBM X-Force](https://exchange.xforce.ibmcloud.com) | Threat intelligence sharing platform | Freemium |
-| [Pulsedive](https://pulsedive.com) | IOC enrichment and threat feed aggregation | Freemium |
-| [Bitsight](https://www.bitsight.com) | Security ratings and external attack surface management | 💲 |
-
----
-
-## 🔬 Vulnerability & Attack Surface Mapping
-
-> Identify exposed assets, misconfigurations, and known vulnerabilities.
-
-| Tool | Description | Free |
-|------|-------------|------|
-| [Shodan](https://www.shodan.io) | Find open ports and services across your attack surface | Freemium |
-| [Censys Attack Surface](https://censys.io) | Continuous external attack surface monitoring | Freemium |
-| [Nuclei](https://github.com/projectdiscovery/nuclei) | Fast vulnerability scanner using community templates | ✅ |
-| [Amass](https://github.com/owasp-amass/amass) | OWASP asset discovery and attack surface mapping | ✅ |
-| [Subfinder](https://github.com/projectdiscovery/subfinder) | Passive subdomain enumeration | ✅ |
-| [httpx](https://github.com/projectdiscovery/httpx) | Fast HTTP probing for live host discovery | ✅ |
-| [Nmap](https://nmap.org) | Industry-standard network scanning and service detection | ✅ |
-| [Masscan](https://github.com/robertdavidgraham/masscan) | Internet-scale port scanner — fastest available | ✅ |
-| [WhatWeb](https://github.com/urbanadventurer/WhatWeb) | Web technology fingerprinting | ✅ |
-| [Wafw00f](https://github.com/EnableSecurity/wafw00f) | Identify WAF (Web Application Firewall) in use | ✅ |
-
----
-
-## 📱 Mobile & App Intelligence
-
-> Investigate mobile apps, phone metadata, and app store data.
-
-| Tool | Description | Free |
-|------|-------------|------|
-| [APKPure](https://apkpure.com) | Download and analyze Android APKs | ✅ |
-| [MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF) | Automated mobile app security analysis (Android/iOS) | ✅ |
-| [AndroGuard](https://github.com/androguard/androguard) | Android APK reverse engineering and analysis | ✅ |
-| [AppTweak](https://www.apptweak.com) | App store intelligence — rankings, keywords, reviews | 💲 |
-| [Sensor Tower](https://sensortower.com) | App download estimates, revenue, and ad intelligence | 💲 |
-| [42matters](https://42matters.com) | App metadata and market intelligence | Freemium |
-| [Frida](https://frida.re) | Dynamic instrumentation toolkit for app analysis | ✅ |
-
----
-
-## 📰 News, Archives & Wayback
-
-> Access historical records, archived content, and deleted pages.
-
-| Tool | Description | Free |
-|------|-------------|------|
-| [Wayback Machine](https://web.archive.org) | Internet Archive — snapshots of websites from 1996 onward | ✅ |
-| [CachedView](https://cachedview.nl) | Google, Bing, and Wayback cached page viewer | ✅ |
-| [Archive.today](https://archive.ph) | On-demand page archiver — bypasses paywalls for research | ✅ |
-| [GDELT Project](https://www.gdeltproject.org) | Global news event database — 100+ languages, real-time | ✅ |
-| [NewsPaper3k](https://github.com/codelucas/newspaper) | Python library for news article extraction and NLP | ✅ |
-| [Factiva](https://professional.dowjones.com/factiva) | Premium historical news archive — 30,000+ sources | 💲 |
-| [LexisNexis](https://www.lexisnexis.com) | Legal and news archive used by journalists and investigators | 💲 |
-| [MediaCloud](https://mediacloud.org) | Academic media tracking and analysis platform | ✅ |
-
----
-
-## 🗂️ Document & Metadata Analysis
-
-> Find, download, and analyze documents for embedded metadata.
-
-| Tool | Description | Free |
-|------|-------------|------|
-| [FOCA](https://github.com/ElevenPaths/FOCA) | Extract metadata from documents found via Google, Bing, DuckDuckGo | ✅ |
-| [ExifTool](https://exiftool.org) | Read/write metadata from any file type | ✅ |
-| [Metagoofil](https://github.com/laramies/metagoofil) | Metadata extractor for public documents from target domains | ✅ |
-| [PDF Examiner](https://www.pdfexaminer.com) | Analyze PDFs for malicious content and embedded metadata | ✅ |
-| [Dangerzone](https://dangerzone.rocks) | Safely convert potentially dangerous documents | ✅ |
-
-**Google Dorks for documents:**
-```
-site:target.com filetype:pdf
-site:target.com filetype:docx OR filetype:xlsx
-site:target.com filetype:pptx "confidential"
+☐ Dedicated VM — Whonix or Tails preferred
+☐ Tor Browser only — no additional plugins, JavaScript disabled unless required
+☐ VPN active at the hypervisor/host level
+☐ No personal accounts signed in anywhere on the machine
+☐ Screenshot metadata stripped before saving evidence
+☐ Treat sessions as disposable — snapshot and revert VM after each session
 ```
 
 ---
 
-## 🧩 Browser Extensions & OSINT Add-ons
+## 20 · Browser Extensions & Quick Lookup
 
-> Extend your browser for faster in-context OSINT lookups.
+> Perform OSINT lookups without leaving your active browser tab — critical for maintaining investigation flow.
 
-| Extension | Browser | Description |
+| Extension | Browser | What It Does |
 |-----------|---------|-------------|
-| [Mitaka](https://github.com/ninoseki/mitaka) | Chrome/Firefox | OSINT lookup from selected text — IPs, URLs, domains, hashes |
-| [Sputnik](https://github.com/mitchmoser/sputnik) | Chrome | Quick IOC lookups — VirusTotal, Shodan, Censys |
-| [Shodan](https://chrome.google.com/webstore/detail/shodan/jjalcfnidlmpjhdfepjhjbhnhkbgleap) | Chrome | See Shodan data for the current website's IP |
-| [OSINT Combine Toolkit](https://www.osintcombine.com/osint-browser-tools) | Chrome | Suite of OSINT utilities for investigators |
-| [Wappalyzer](https://www.wappalyzer.com) | Chrome/Firefox | Identify technologies used on websites |
-| [Wayback Machine](https://chrome.google.com/webstore/detail/wayback-machine/fpnmgdkabkmnadcjpehmlllkndpkmiak) | Chrome | Quick access to archived versions of the current page |
-| [uBlock Origin](https://ublockorigin.com) | Chrome/Firefox | Essential for OPSEC during OSINT browsing |
+| [Mitaka](https://github.com/ninoseki/mitaka) | Chrome / Firefox | Right-click any IP, hash, domain, or URL → look it up across 80+ OSINT sources instantly |
+| [Sputnik](https://github.com/mitchmoser/sputnik) | Chrome | IOC lookups — VirusTotal, Shodan, Censys from context menu |
+| [Shodan Extension](https://chrome.google.com/webstore/detail/shodan/jjalcfnidlmpjhdfepjhjbhnhkbgleap) | Chrome | Shows Shodan data for any website's current IP address |
+| [Wappalyzer](https://www.wappalyzer.com) | Chrome / Firefox | Real-time technology stack detection for the current site |
+| [Wayback Machine](https://chrome.google.com/webstore/detail/wayback-machine/fpnmgdkabkmnadcjpehmlllkndpkmiak) | Chrome | One-click access to archived versions of any page |
+| [uBlock Origin](https://ublockorigin.com) | Chrome / Firefox | OPSEC essential — blocks trackers, fingerprinting scripts, and malicious ads |
 
 ---
 
-## 🛡️ Operational Security (OPSEC) for OSINT
+## 21 · OPSEC, Privacy & Anonymity
 
-> Protect your identity and investigation integrity while conducting OSINT.
+> Protecting your investigation identity is non-negotiable. A single careless action can expose your real IP to a threat actor, burn a months-long investigation, or create legal liability.
 
 ### Anonymity Infrastructure
 
-| Tool | Description |
-|------|-------------|
-| [Tor Browser](https://www.torproject.org) | Anonymous browsing via the Tor network — essential for dark web research |
-| [Tails OS](https://tails.boum.org) | Amnesic OS that leaves no trace — boots from USB |
-| [Whonix](https://www.whonix.org) | Anonymity OS with two VMs — Gateway (Tor) + Workstation |
+| Tool | Purpose |
+|------|---------|
+| [Tor Browser](https://www.torproject.org) | Anonymous browsing through the Tor network — mandatory for dark web research |
+| [Tails OS](https://tails.boum.org) | Amnesic OS on USB — leaves absolutely zero trace on the host machine |
+| [Whonix](https://www.whonix.org) | Two-VM setup: Gateway (Tor) + Workstation — traffic cannot leak by design |
 | [Kali Linux](https://www.kali.org) | Penetration testing distro with OSINT tools pre-installed |
-| [ProtonVPN](https://protonvpn.com) | Privacy-focused VPN — no-logs policy, open source |
+| [ProtonVPN](https://protonvpn.com) | No-logs, open-source VPN — run at the host level when using VMs |
 
-### Sock Puppet & Investigation Identity
-
-| Practice | Description |
-|----------|-------------|
-| Sock Puppet accounts | Create investigation personas with separate browsers, emails, devices |
-| Virtual Machines | Use isolated VMs per investigation to prevent cross-contamination |
-| Burner emails | Use ProtonMail or Tutanota for OSINT account creation |
-| Separate browser profiles | Compartmentalize investigations per browser profile |
-| No real photos | Never use real photos for investigation accounts |
-
-### OPSEC Checklist
+### Sock Puppet & Investigation Hygiene
 
 ```
-☐ VPN active before any OSINT activity
-☐ Browser fingerprinting checked (coveryourtracks.eff.org)
-☐ No personal accounts logged in during investigation
-☐ Metadata stripped from any screenshots before sharing
-☐ Investigation notes stored in encrypted container (VeraCrypt)
-☐ Sock puppet accounts aged naturally before use
-☐ Log all evidence with timestamps and source URLs (Hunchly)
+✅ Create investigation personas on dedicated VMs or separate devices
+✅ Use ProtonMail or Tutanota for throwaway investigation accounts
+✅ Never reuse passwords or usernames across investigation personas
+✅ Age sock puppet accounts naturally — wait 2–4 weeks before active use
+✅ Separate browser profiles per target and per investigation
+✅ Strip EXIF metadata from all screenshots before sharing or archiving
+✅ Store notes and evidence in an encrypted container (VeraCrypt)
+✅ Log every source URL with a timestamp — Hunchly automates this
+✅ Never access investigation targets from your personal home IP
+```
+
+### Pre-Investigation Checklist
+
+```
+☐ VPN active
+☐ VM loaded and network-isolated
+☐ Browser fingerprint verified at coveryourtracks.eff.org
+☐ No personal accounts signed in anywhere
+☐ Dedicated investigation email ready for platform sign-ups
+☐ Evidence capture tool running (Hunchly or manual archive.ph)
+☐ Evidence folder created with today's date and case reference
 ```
 
 ---
 
-## 🎓 Learning, Training & Communities
+## 22 · Learning, Communities & Resources
 
-### Free Training & Courses
+### Free Training & Platforms
 
-| Resource | Description |
-|----------|-------------|
-| [OSINT Curious](https://osintcurio.us) | Blog, podcast, YouTube, and weekly 10-minute OSINT tips |
-| [Bellingcat Guides](https://www.bellingcat.com/resources) | World-class investigative journalism guides and workshops |
-| [TraceLabs](https://www.tracelabs.org) | OSINT CTF competitions focused on finding missing persons |
-| [TryHackMe OSINT Path](https://tryhackme.com) | Hands-on OSINT rooms and challenges |
-| [Hack The Box OSINT](https://www.hackthebox.com) | CTF-style OSINT challenges for skill building |
-| [WebBreacher's OSINT Course](https://www.webbreacher.com) | Practitioner-led OSINT training |
+| Resource | Format | Focus |
+|----------|--------|-------|
+| [OSINT Curious](https://osintcurio.us) | Blog + Podcast + YouTube | Weekly tips, live walkthroughs, community challenges |
+| [Bellingcat](https://www.bellingcat.com/resources) | Guides + Workshops | Investigative journalism — geolocation, satellite intel, conflict OSINT |
+| [TraceLabs](https://www.tracelabs.org) | CTF Competitions | OSINT applied to finding missing persons — skills with real impact |
+| [TryHackMe OSINT Path](https://tryhackme.com) | Hands-on Labs | Beginner to intermediate skill building in a guided environment |
+| [Hack The Box](https://www.hackthebox.com) | CTF Challenges | Advanced OSINT and forensics challenges |
+| [OSINT Dojo](https://www.osintdojo.com) | Training Toolkit | Curated resources and pre-configured investigation environments |
 
-### Paid Training
+### Paid / Professional Training
 
-| Resource | Description |
-|----------|-------------|
-| [Michael Bazzell's IntelTechniques](https://inteltechniques.com) | The gold-standard OSINT training — books, courses, podcast |
-| [TCM Security OSINT Course](https://academy.tcm-sec.com) | Practical OSINT for beginners and professionals |
-| [SANS SEC487](https://www.sans.org/courses/open-source-intelligence-gathering) | Open-Source Intelligence Gathering course |
-| [Maltego Training](https://www.maltego.com/training) | Official Maltego investigator certification |
+| Resource | Level |
+|----------|-------|
+| [IntelTechniques — Michael Bazzell](https://inteltechniques.com) | Intermediate → Advanced — the gold standard; includes annual updated book and workbook |
+| [TCM Security OSINT Course](https://academy.tcm-sec.com) | Beginner → Intermediate — practical and hands-on |
+| [SANS SEC487](https://www.sans.org/courses/open-source-intelligence-gathering) | Professional — used by law enforcement and government analysts |
 
-### Communities & Forums
+### Active Communities
 
 | Community | Platform |
 |-----------|----------|
-| [r/OSINT](https://www.reddit.com/r/OSINT) | Reddit OSINT community |
-| [OSINT Team Discord](https://discord.gg/osint) | Active OSINT practitioners Discord |
-| [Bellingcat Discord](https://discord.gg/bellingcat) | Investigative journalism community |
-| [TraceLabs Discord](https://www.tracelabs.org) | OSINT CTF and missing persons community |
+| [r/OSINT](https://www.reddit.com/r/OSINT) | Reddit |
+| [Bellingcat Discord](https://discord.gg/bellingcat) | Discord |
+| [TraceLabs Discord](https://www.tracelabs.org) | Discord |
+| [OSINT Team Discord](https://discord.gg/osint) | Discord |
+
+### Essential Books
+
+| Book | Author | Why Read It |
+|------|--------|-------------|
+| Open Source Intelligence Techniques | Michael Bazzell | Updated annually — the definitive practitioner manual |
+| Extreme Privacy | Michael Bazzell | Personal data removal and deep OPSEC methodology |
+| The Art of Invisibility | Kevin Mitnick | Privacy and anonymity from a reformed hacker's perspective |
+| This Is How They Tell Me the World Ends | Nicole Perlroth | Cybersecurity investigation journalism at its finest |
 
 ### Podcasts
 
-| Podcast | Description |
-|---------|-------------|
-| [IntelTechniques Podcast](https://inteltechniques.com/podcast.html) | Michael Bazzell — weekly privacy and OSINT |
-| [OSINT Curious Podcast](https://osintcurio.us/podcast) | Community practitioners sharing techniques |
+| Podcast | Focus | Frequency |
+|---------|-------|-----------|
+| [IntelTechniques Podcast](https://inteltechniques.com/podcast.html) | Privacy, OSINT, data removal | Weekly |
+| [OSINT Curious Cast](https://osintcurio.us/osintvideosandpodcasts/) | Practitioner techniques and case studies | Irregular |
 
 ---
 
-## 📖 Books & Essential Reading
-
-| Book | Author | Focus |
-|------|--------|-------|
-| Open Source Intelligence Techniques | Michael Bazzell | The definitive OSINT manual — updated annually |
-| The Art of Invisibility | Kevin Mitnick | Privacy and OPSEC for investigators |
-| Extreme Privacy | Michael Bazzell | Personal data removal and OPSEC |
-| This Is How They Tell Me the World Ends | Nicole Perlroth | Cybersecurity investigation journalism |
-| We Are Anonymous | Parmy Olson | Hacktivism and online investigation narrative |
-| Digital Forensics with Open Source Tools | Cory Altheide | Forensic investigation methodology |
-
----
-
-## 📊 OSINT Workflow — Quick Reference
+## 🗺️ Investigation Workflow — Quick Reference
 
 ```
-TARGET → DEFINE SCOPE
-    │
-    ├── Person?       → Username search → Email → Phone → Breach check → Social profiles
-    ├── Domain/Org?   → WHOIS → DNS → Certificates → Subdomains → Technologies → Employees
-    ├── IP Address?   → Geolocation → ASN → Shodan → GreyNoise → Abuse reports
-    ├── Email?        → HIBP → Holehe → GHunt → h8mail → Social pivots
-    ├── Crypto?       → Blockchain explorer → Arkham → Chainalysis → Wallet clustering
-    └── Dark Web?     → Ahmia → IntelX → DarkOwl → Breach databases
-    │
-COLLECT EVIDENCE → Hunchly / Screenshots / Archive.ph
-    │
-ANALYZE & LINK → Maltego / SpiderFoot / CRIMEwall
-    │
-DOCUMENT → Report with timestamped, sourced evidence
+DEFINE TARGET & SCOPE
+        │
+        ├─ Domain / Org ────→ WHOIS → crt.sh → DNSDumpster → Subfinder
+        │                      └→ Shodan/Censys → BuiltWith → LinkedIn → EDGAR
+        │
+        ├─ Person ──────────→ Username: Sherlock / Maigret / Blackbird
+        │                      └→ Email: Holehe / GHunt / EmailRep
+        │                      └→ Phone: PhoneInfoga / Epieos
+        │                      └→ Breach: HIBP / DeHashed / h8mail
+        │
+        ├─ IP Address ──────→ IPinfo → AbuseIPDB → Shodan → GreyNoise → Talos
+        │
+        ├─ Email ───────────→ HIBP → Holehe → GHunt → EmailRep → h8mail
+        │
+        ├─ Image ───────────→ ExifTool (metadata) → Google/Yandex/TinEye (reverse)
+        │                      └→ FotoForensics (manipulation check)
+        │                      └→ SunCalc (time/location verification)
+        │
+        ├─ Cryptocurrency ──→ Explorer (chain-specific) → Arkham → Breadcrumbs
+        │
+        └─ Dark Web ────────→ Ahmia → IntelX → Dark Web Informer → MalwareBazaar
+                               └→ Isolated VM + Tor Browser only — always
+        │
+COLLECT ──→ Archive every source: Hunchly / archive.ph / Wayback Machine
+        │
+ANALYZE ──→ Link entities: Maltego / SpiderFoot
+        │
+DOCUMENT ─→ Report with timestamped evidence, source URLs, and confidence labels
 ```
 
 ---
 
-## ⚖️ Legal & Ethical Disclaimer
+## Contributing
 
-> All tools and resources listed here are intended for **legal, ethical, and authorized purposes only**, including:
-> - Authorized penetration testing
-> - Threat intelligence research
-> - Journalism and academic research
-> - Law enforcement (with proper authority)
-> - Self-investigation and privacy auditing
->
-> **You are solely responsible** for ensuring your use of any tool complies with all applicable local, national, and international laws. Unauthorized surveillance, stalking, unauthorized access, and scraping data in violation of terms of service may be illegal. The maintainers of this repository accept no liability for misuse.
+To contribute a tool, open a pull request with this format:
+
+```markdown
+| [Tool Name](https://url) | One-sentence description of what it does | Free/Freemium/💲 |
+```
+
+**A submission must:**
+- Be actively maintained — a commit or update within the past 12 months
+- Be verified working — please test it before submitting
+- Be legal to use for OSINT and security research purposes
+- Not duplicate an existing entry
+
+**Not accepted:**
+- Abandoned, archived, or unmaintained tools
+- Tools built for unauthorized access or illegal surveillance
+- Duplicates
 
 ---
+Final Disclaimer & License
+Notice: This project is provided for educational and professional research purposes only. The "OSINT Arsenal" and its contributors do not endorse the use of these tools for stalking, harassment, unauthorized access, or any activities that violate the privacy of individuals or the laws of any jurisdiction.
 
+Liability: The user assumes all responsibility for their actions. Accessing certain data sources may be subject to the Terms of Service of the respective providers.
 
-*Last updated: 2026 | Maintained by the community | ⭐ Star this repo if you find it useful!*
+License: This toolkit is licensed under the MIT License (or your preferred license). Feel free to fork, share, and build upon this knowledge responsibly.
+*Maintained by the community · Last updated May 2026 · ⭐ Star if this helped you*

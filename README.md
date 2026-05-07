@@ -27,18 +27,6 @@ In an era of information overload, this repository adheres to a strict curation 
 
 ---
 
-## 🗂️ Arsenal Index
-| Category | Focus |
-| :--- | :--- |
-| **01** | [Search Engines & Dorking](#01-search-engines--dorking) |
-| **02** | [Cyberspace Asset Search](#02-cyberspace-asset-search) |
-| **03** | [Social Media & Identity](#05-social-media--username-osint) |
-| **04** | [Domain & Infrastructure](#04-domain-dns--certificate-intel) |
-| **05** | [Breach & Threat Intel](#12-breach--credential-intelligence) |
-| **06** | [Dark Web & Crypto Tracing](#18-blockchain--crypto-tracing) |
-
----
-
 ## 🗂️ Index
 
 | # | Category | # | Category |
@@ -72,7 +60,7 @@ In an era of information overload, this repository adheres to a strict curation 
 | [Brave Search](https://search.brave.com) | Independent index — not reliant on Google or Bing, no tracking | ✅ |
 | [Perplexity AI](https://www.perplexity.ai) | AI search with cited sources — fast context-building on any topic | ✅ |
 | [Wolfram Alpha](https://www.wolframalpha.com) | Computational knowledge engine — useful for data, stats, and structured queries | ✅ |
-| [Kagi](https://kagi.com) | Ad-free, no surveillance, powerful filtering and ranking controls | Freemium |
+| [Kagi](https://kagi.com) | Ad-free, high-quality independent index with "Lenses" | Freemium |
 
 ### Privacy-First Search (OPSEC Investigations)
 
@@ -156,6 +144,7 @@ site:target.com inurl:login OR inurl:signin OR inurl:portal
 | [Cisco Talos](https://talosintelligence.com/reputation_center) | IP and domain reputation from one of the world's largest threat intel teams | ✅ |
 | [Cloudflare Radar](https://radar.cloudflare.com) | Internet traffic patterns, route anomalies, technology trends | ✅ |
 | [BrightCloud](https://brightcloud.com/tools/url-ip-lookup.php) | URL and IP reputation with category and threat classification | ✅ |
+| [Cyble ODIN](https://search.odin.io) | Exposed buckets, assets, and real-time vulnerability correlation | Freemium  | ✅ |
 
 ---
 
@@ -228,6 +217,8 @@ site:target.com inurl:login OR inurl:signin OR inurl:portal
 | [WhatsMyName](https://whatsmyname.app) | Community-maintained JSON source list — accurate and regularly updated | ✅ |
 | [Antisocial](https://github.com/rly0nheart/antisocial) | 30+ platforms with three-tier verification (API → browser → HTTP) | ✅ |
 | [Digital Footprint Check](https://www.digitalfootprintcheck.com) | 100+ sites — free, no registration needed | ✅ |
+| [Telegago](https://cse.google.com) | Google CSE for searching public Telegram channels without an account | | ✅ |
+| [Telemetrio](https://telemetr.io) | Channel analytics and influence network tracking | | ✅ |
 
 ### Platform-Specific Tools
 
@@ -259,6 +250,9 @@ site:target.com inurl:login OR inurl:signin OR inurl:portal
 | Tool | Description |
 |------|-------------|
 | [Telegram Informer](https://github.com/paulpierre/informer) | Monitor and archive Telegram channels and groups |
+| [Telemetrio](https://telemetr.io) | Channel analytics and influence network tracking |
+| [Telegago](https://cse.google.com/cse?cx=006368593537057042503:efxu7xprihg) | Official 2026 Telegago engine for public Telegram content | ✅ |
+
 
 **Steam**
 
@@ -386,6 +380,7 @@ site:target.com inurl:login OR inurl:signin OR inurl:portal
 | [GitLeak](https://github.com/k4rskin/gitleak) | Extract hidden emails and commit timestamps from `.patch` metadata | ✅ |
 | [github_monitor](https://github.com/0x4D31/github-monitor) | Alert on profile/repo changes with email notifications and CSV logging | ✅ |
 | [Shotstars](https://github.com/ARPSyndicate/shotstars) | Fake star detection — evaluate credibility of a repo before trusting it | ✅ |
+| [GitFive](https://github.com/mxrch/gitfive) | Link GitHub activity to emails and secondary social profiles | ✅ |
 
 ---
 
@@ -416,6 +411,7 @@ site:target.com inurl:login OR inurl:signin OR inurl:portal
 | [CredenShow](https://credenshow.com) | Compromised credential identification before attackers use them | Freemium |
 | [HEROIC](https://heroic.com) | Dark web credential exposure scan with free tier | Freemium |
 | [Venacus](https://venacus.com) | Breach search with email monitoring alerts | Freemium |
+| [XposedOrNot](https://xposedornot.com) | Real-time domain-level breach analysis and risk analytics | ✅ |
 
 ---
 
@@ -434,6 +430,7 @@ site:target.com inurl:login OR inurl:signin OR inurl:portal
 | [YARAify](https://yaraify.abuse.ch/scan/) | Community YARA engine for malware pattern matching | ✅ |
 | [Abusech Hunting](https://hunting.abuse.ch) | Single query across all abuse.ch platforms | ✅ |
 | [BreachHQ](https://breachhq.com) | Comprehensive listing of known cybercriminal and APT groups | ✅ |
+| [VenariX](https://venarix.com) | **(2026 Essential)** Real-time ransomware tracker & actor relationship mapper | Freemium |
 
 ---
 
@@ -488,17 +485,27 @@ site:target.com inurl:login OR inurl:signin OR inurl:portal
 | [Google Images](https://images.google.com) | Widest web coverage for tracing image origins | ✅ |
 | [Yandex Images](https://yandex.com/images) | Facial recognition — best for finding people across photo databases | ✅ |
 | [TinEye](https://tineye.com) | Exact match history with earliest appearance dates | Freemium |
-| [Bing Visual Search](https://www.bing.com/visualsearch) | Object and scene recognition within images | ✅ |
-| [PimEyes](https://pimeyes.com) | AI face recognition — finds where a face appears online including altered images | Freemium |
-| [Lenso.ai](https://lenso.ai) | AI reverse image with facial recognition and copyright tracing | Freemium |
+| [PimEyes](https://pimeyes.com) | AI Face recognition — finds where a face appears online | Freemium |
+| [Lenso.ai](https://lenso.ai) | AI reverse search with dedicated "Research Mode" (10k+ results) | Freemium |
 
 ### Video Verification
 
 | Tool | Description | Free |
 |------|-------------|------|
-| [InVID / WeVerify](https://www.invid-project.eu) | Keyframe extraction, reverse image search, metadata pull for video verification | ✅ |
-| [YouTube DataViewer](https://citizenevidence.amnestytech.org) | Extract exact upload timestamp and reverse search video thumbnails | ✅ |
-| [Forensically](https://29a.ch/photo-forensics) | ELA, clone detection, noise analysis — all in-browser, no upload required | ✅ |
+| [InVID / WeVerify](https://www.invid-project.eu) | Keyframe extraction and video fragment verification | ✅ |
+| [Fake-Catcher](https://fake-catcher.intel.com) | Real-time deepfake and synthetic media detection | ✅ |
+| [Youtube Metadata](https://mattw.io/youtube-metadata/) | Extract hidden upload data, tags, and location info from YT videos | ✅ |
+
+---
+
+## 📈 2026 Field Workflows
+| Goal | Workflow |
+| :--- | :--- |
+| **Verify Identity** | `Photo` → `Lenso.ai` → `Epieos` → `Sherlock` |
+| **Track APTs** | `IOCs` → `MalwareBazaar` → `VenariX` → `MISP` |
+| **Repo Secrets** | `Org Name` → `TruffleHog` → `GitLeak` → `h8mail` |
+
+---
 
 ### Metadata & Authenticity Analysis
 
@@ -744,10 +751,26 @@ To contribute a tool, open a pull request with this format:
 - Duplicates
 
 ---
-Final Disclaimer & License
-Notice: This project is provided for educational and professional research purposes only. The "OSINT Arsenal" and its contributors do not endorse the use of these tools for stalking, harassment, unauthorized access, or any activities that violate the privacy of individuals or the laws of any jurisdiction.
+
+## 📈 Recommended Investigator Workflows
+To cut through the static, use these proven tool chains for common investigation types:
+
+| Objective | Tools / Sequence | Why It Matters |
+| :--- | :--- | :--- |
+| **Identity Linkage** | `Email` → `Holehe` → `Epieos` → `GitFive` | Connects an alias to a developer profile or social identity. |
+| **Attack Surface** | `Domain` → `Amass` → `ODIN` → `Censys` | Discovers cloud misconfigurations and exposed assets. |
+| **Influence Tracking**| `Keyword` → `Telegago` → `Telemetrio` | Tracks the spread of disinformation or actor propaganda. |
+| **Verify Identity** | `Photo` → `Lenso.ai` → `Epieos` → `Sherlock` |
+| **Track APTs** | `IOCs` → `MalwareBazaar` → `VenariX` → `MISP` |
+| **Repo Secrets** | `Org Name` → `TruffleHog` → `GitLeak` → `h8mail` |
+
+> ⚠️ **OPSEC Note (2026):** Avoid visiting "People Search" sites (e.g., Spokeo, Whitepages) from your primary IP. These are frequently used as honey-tokens by targets to log an investigator's IP. Always use a non-attributable VM or residential proxy.
+
+---
+⚖️ Disclaimer & License
+Notice: This project is provided for educational and professional research purposes only. The "Signal-Over-Noise" and its contributors do not endorse the use of these tools for stalking, harassment, unauthorized access, or any activities that violate the privacy of individuals or the laws of any jurisdiction.
 
 Liability: The user assumes all responsibility for their actions. Accessing certain data sources may be subject to the Terms of Service of the respective providers.
 
-License: This toolkit is licensed under the MIT License (or your preferred license). Feel free to fork, share, and build upon this knowledge responsibly.
+License: This toolkit is licensed under the MIT License. Feel free to fork, share, and build upon this knowledge responsibly.
 *Maintained by the community · Last updated May 2026 · ⭐ Star if this helped you*

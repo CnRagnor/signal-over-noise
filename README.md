@@ -417,7 +417,6 @@ site:target.com inurl:login OR inurl:signin OR inurl:portal
 | [StealSeek](https://stealseek.io) | Stealer log and breach database search | Freemium |
 | [CredenShow](https://credenshow.com) | Compromised credential identification before attackers use them | Freemium |
 | [HEROIC](https://heroic.com) | Dark web credential exposure scan with free tier | Freemium |
-| [Venacus](https://venacus.com) | Breach search with email monitoring alerts | Freemium |
 | [XposedOrNot](https://xposedornot.com) | Real-time domain-level breach analysis and risk analytics | ✅ |
 
 ---
@@ -428,15 +427,12 @@ site:target.com inurl:login OR inurl:signin OR inurl:portal
 |----------|----------------|------|
 | [MISP Galaxy](https://www.misp-project.org/galaxy.html) | Adversary groups, tools, and TTPs — used by threat intel teams globally | ✅ |
 | [Malpedia](https://malpedia.caad.fkie.fraunhofer.de) | Malware families linked to specific threat actors | ✅ |
-| [APT Groups Spreadsheet](https://docs.google.com/spreadsheets/d/1H9_xaxQHpWaa4O_Son4Gx0YOIzlrKDeFEOHyv01mUyw) | Community-maintained tracker with sponsored nations and tool mapping | ✅ |
 | [ETDA Threat Actor Encyclopedia](https://apt.etda.or.th/cgi-bin/aptgroups.cgi) | Searchable threat actor database with associated tools | ✅ |
-| [FortiGuard Threat Encyclopedia](https://www.fortiguard.com/threat-encyclopedia) | Actor TTPs, attack timelines, and tool mapping | ✅ |
 | [SOCRadar Labs](https://labs.socradar.com) | Actor profiles, recent campaigns, and TTP breakdowns | Freemium |
 | [Dark Web Informer](https://darkwebinformer.com) | Tracking 850+ threat actors — forum posts, leaks, ransomware announcements | ✅ |
 | [MalwareBazaar](https://bazaar.abuse.ch/browse/) | Search and download confirmed malware samples by hash, family, or tag | ✅ |
 | [YARAify](https://yaraify.abuse.ch/scan/) | Community YARA engine for malware pattern matching | ✅ |
 | [Abusech Hunting](https://hunting.abuse.ch) | Single query across all abuse.ch platforms | ✅ |
-| [BreachHQ](https://breachhq.com) | Comprehensive listing of known cybercriminal and APT groups | ✅ |
 | [VenariX](https://venarix.com) | **(2026 Essential)** Real-time ransomware tracker & actor relationship mapper | Freemium |
 
 ---
@@ -465,7 +461,6 @@ site:target.com inurl:login OR inurl:signin OR inurl:portal
 | [Google Earth Pro](https://earth.google.com) | Historical satellite imagery with timeline slider, measurement tools, and export | ✅ |
 | [Sentinel Hub](https://www.sentinel-hub.com) | ESA imagery — multi-spectral analysis and change detection | Freemium |
 | [SunCalc](https://www.suncalc.org) | Sun position and shadow analysis — verify when and where a photo was taken | ✅ |
-| [ShadowCalculator](http://shadowcalculator.eu) | Shadow direction and length from sun angle and date | ✅ |
 | [MapChecking](https://www.mapchecking.com) | Crowd size estimation from satellite imagery | ✅ |
 
 ### Tracking & Mapping
@@ -500,7 +495,11 @@ site:target.com inurl:login OR inurl:signin OR inurl:portal
 | Tool | Description | Free |
 |------|-------------|------|
 | [InVID / WeVerify](https://www.invid-project.eu) | Keyframe extraction and video fragment verification | ✅ |
-| [Fake-Catcher](https://fake-catcher.intel.com) | Real-time deepfake and synthetic media detection | ✅ |
+| [Hive Moderation](https://hivemoderation.com) | Enterprise-grade content moderation platform with real-time deepfake detection across video, audio, and images |
+| [Reality Defender](https://realitydefender.ai) | Multi-modal detection covering video, audio, image, and AI-generated text; designed for enterprise workflows 
+| [Sensity AI](https://sensity.ai) | Visual deepfake detection with forensic analysis and KYC integration for video and images |
+| [Deepware Scanner](https://deepware.ai) | Free/open-source scanner for local video analysis, supports 4K and GAN-based fake detection |
+| [DuckDuckGoose](https://duckduckgoose.ai) | Real-time detection API for video and image deepfakes, optimized for fast integration |
 | [Youtube Metadata](https://mattw.io/youtube-metadata/) | Extract hidden upload data, tags, and location info from YT videos | ✅ |
 
 ---
@@ -520,7 +519,6 @@ site:target.com inurl:login OR inurl:signin OR inurl:portal
 |------|-------------|------|
 | [ExifTool](https://exiftool.org) | The gold standard — reads and writes metadata for any file format | ✅ |
 | [FotoForensics](https://fotoforensics.com) | Error Level Analysis for detecting image manipulation | ✅ |
-| [Jeffrey's Exif Viewer](http://exif.regex.info/exif.cgi) | Web-based EXIF reader — no software install needed | ✅ |
 
 ---
 

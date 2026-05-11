@@ -281,7 +281,6 @@ site:target.com inurl:login OR inurl:signin OR inurl:portal
 |------|-------------|
 | [linkedin2username](https://github.com/initstring/linkedin2username) | Generate username wordlists from company LinkedIn employee pages |
 | [InSpy](https://github.com/gojhonny/InSpy) | Enumerates LinkedIn profiles by company, job title, and keyword to build target lists |
-| [EagleEye](https://github.com/ThoughtfulDev/EagleEye) | Cross-references LinkedIn photos with other social networks to identify accounts |
 | [LittleBrother](https://github.com/lulz3xploit/LittleBrother) | OSINT tool that can pull LinkedIn data along with other social media and public records |
 
 **WhatsApp**
@@ -289,6 +288,10 @@ site:target.com inurl:login OR inurl:signin OR inurl:portal
 | Tool | Description |
 |------|-------------|
 | [2Chat](https://2chat.co) | Check if a phone number is registered on WhatsApp |
+| [Truecaller](https://www.truecaller.com) | Identifies names, carriers, and sometimes WhatsApp associations for phone numbers through its global caller ID database |
+| [Sync.ME](https://sync.me) | Reverse phone lookup that can reveal if a number is linked to WhatsApp, Facebook, or other messaging apps |
+| [NumVerify](https://numverify.com) | API-based phone intelligence service that checks carrier, line type, and can indicate messaging app registrations |
+
 
 ---
 
@@ -329,7 +332,6 @@ site:target.com inurl:login OR inurl:signin OR inurl:portal
 | [Epieos](https://epieos.com) | Email → Google account lookup and social profile correlation | Freemium |
 | [Email Hippo](https://tools.emailhippo.com) | Validate whether an email address actually exists on the mail server | Freemium |
 | [Email Format](https://email-format.com) | Discover email naming patterns used by specific companies | ✅ |
-| [Email Permutator](https://www.emailpermutator.com) | Generate likely email variations from first name, last name, and domain | ✅ |
 | [MXToolbox Email Headers](https://mxtoolbox.com/EmailHeaders.aspx) | Parse email headers to trace routing path and sending infrastructure | ✅ |
 
 ---

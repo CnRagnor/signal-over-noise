@@ -215,9 +215,9 @@ site:target.com inurl:login OR inurl:signin OR inurl:portal
 | [Maigret](https://github.com/soxoj/maigret) | 3,000+ sites — pulls profile photos, bios, and linked accounts | ✅ |
 | [Blackbird](https://github.com/p1ngul1n0/blackbird) | 600+ websites with async verification | ✅ |
 | [WhatsMyName](https://whatsmyname.app) | Community-maintained JSON source list — accurate and regularly updated | ✅ |
-| [Antisocial](https://github.com/rly0nheart/antisocial) | 30+ platforms with three-tier verification (API → browser → HTTP) | ✅ |
+| [Namechk](https://namechk.com) | 100+ major platforms — quick username availability check | ✅ 
 | [Digital Footprint Check](https://www.digitalfootprintcheck.com) | 100+ sites — free, no registration needed | ✅ |
-| [Telegago](https://cse.google.com) | Google CSE for searching public Telegram channels without an account | | ✅ |
+| [TgramSearch](https://en.tgramsearch.com) | Find public Telegram channels and groups by keyword or category without needing an account | ✅ 
 | [Telemetrio](https://telemetr.io) | Channel analytics and influence network tracking | | ✅ |
 
 ### Platform-Specific Tools
@@ -235,7 +235,7 @@ site:target.com inurl:login OR inurl:signin OR inurl:portal
 |------|-------------|
 | [Facebook Friend List Scraper](https://github.com/narkopolo/fb_friend_list_scraper) | Scrape large friend lists without hitting rate limits |
 | [Lookup-ID.com](https://lookup-id.com) | Find Facebook profile, group, and page numeric IDs from URLs |
-| [Find My Facebook ID](https://findmyfbid.in) | Extract Facebook UID for API and graph operations |
+| [MiniWebtool Facebook User ID Lookup](https://miniwebtool.com/facebook-user-id-lookup/) | Extract numeric Facebook UIDs from profile, page, or group URLs for API and Graph operations | ✅ |
 
 **Reddit**
 
@@ -249,7 +249,7 @@ site:target.com inurl:login OR inurl:signin OR inurl:portal
 
 | Tool | Description |
 |------|-------------|
-| [Telegram Informer](https://github.com/paulpierre/informer) | Monitor and archive Telegram channels and groups |
+| [Lyzem](https://lyzem.com) | Independent crawler that indexes Telegram content, often finds niche channels |
 | [Telemetrio](https://telemetr.io) | Channel analytics and influence network tracking |
 | [Telegago](https://cse.google.com/cse?cx=006368593537057042503:efxu7xprihg) | Official 2026 Telegago engine for public Telegram content | ✅ |
 
@@ -257,18 +257,22 @@ site:target.com inurl:login OR inurl:signin OR inurl:portal
 **Steam**
 
 | Tool | Description |
-|------|-------------|
-| [OSINT-Steam](https://github.com/mbentley3123/osint-steam) | Returns public info — friend lists and possible locations from Steam profiles |
-| [Steam-OSINT](https://github.com/goitdude/Steam-OSINT) | Mutual friends analysis and full friend list mapping |
+| --- | --- |
+| [SteamID.pro](https://steamid.pro) | Advanced lookup for SteamID64, social graph visualization, and historical name tracking |
+| [SteamID.io](https://steamid.io) | Clean interface for converting profile URLs into SteamID, Steam3ID, and SteamID64 |
+| [SteamLadder](https://steamladder.com) | Useful for viewing global rankings and profile snapshots that might be cached even if private |
+| [Backpack.tf](https://backpack.tf) | Tracks inventory and trade history, often revealing "hidden" contacts through item exchanges |
+| [SteamDB](https://steamdb.info) | Detailed technical stats on profiles, including playtime, regional pricing, and account age |
+
 
 **GitHub**
 
 | Tool | Description |
 |------|-------------|
-| [github_monitor](https://github.com/0x4D31/github-monitor) | Real-time tracking of user activity, profile changes, block detection, CSV logging |
 | [GithubRecon / gitrecon](https://github.com/GONZOsint/gitrecon) | Lookup users by username or email, pull commit history and associated data |
-| [GitLeak](https://github.com/k4rskin/gitleak) | Extracts hidden emails, commit timezones, and activity patterns via `.patch` metadata |
-| [Shotstars](https://github.com/ARPSyndicate/shotstars) | Repo star statistics with fake star detection and visualization |
+| [OSSInsight](https://ossinsight.io) | (Shotstars alternative) Advanced data analysis platform for GitHub that provides deep visualization of repo stars and bot/fake star detection |
+| [Gitleaks](https://github.com/gitleaks/gitleaks) | (TruffleHog alternative) The 2026 industry standard for scanning commit history to find leaked API keys, secrets, and credentials |
+| [GitGuardian](https://www.gitguardian.com) | Monitors public activity in real-time to alert when internal credentials or secrets are leaked by employees |
 | [TruffleHog](https://github.com/trufflesecurity/trufflehog) | Find leaked secrets and credentials across git history |
 
 **LinkedIn**
@@ -276,6 +280,9 @@ site:target.com inurl:login OR inurl:signin OR inurl:portal
 | Tool | Description |
 |------|-------------|
 | [linkedin2username](https://github.com/initstring/linkedin2username) | Generate username wordlists from company LinkedIn employee pages |
+| [InSpy](https://github.com/gojhonny/InSpy) | Enumerates LinkedIn profiles by company, job title, and keyword to build target lists |
+| [EagleEye](https://github.com/ThoughtfulDev/EagleEye) | Cross-references LinkedIn photos with other social networks to identify accounts |
+| [LittleBrother](https://github.com/lulz3xploit/LittleBrother) | OSINT tool that can pull LinkedIn data along with other social media and public records |
 
 **WhatsApp**
 

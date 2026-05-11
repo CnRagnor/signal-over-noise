@@ -386,9 +386,7 @@ site:target.com inurl:login OR inurl:signin OR inurl:portal
 | [TruffleHog](https://github.com/trufflesecurity/trufflehog) | Find leaked secrets and credentials across git history | ✅ |
 | [Gitrob](https://github.com/michenriksen/gitrob) | Scan GitHub orgs and users for sensitive file exposure | ✅ |
 | [GithubRecon / gitrecon](https://github.com/GONZOsint/gitrecon) | Collect user/org metadata — emails, activity, and repo history | ✅ |
-| [GitLeak](https://github.com/k4rskin/gitleak) | Extract hidden emails and commit timestamps from `.patch` metadata | ✅ |
-| [github_monitor](https://github.com/0x4D31/github-monitor) | Alert on profile/repo changes with email notifications and CSV logging | ✅ |
-| [Shotstars](https://github.com/ARPSyndicate/shotstars) | Fake star detection — evaluate credibility of a repo before trusting it | ✅ |
+| [GitLeak](https://github.com/gitleaks/gitleaks) | Extract hidden emails and commit timestamps from `.patch` metadata | ✅ |
 | [GitFive](https://github.com/mxrch/gitfive) | Link GitHub activity to emails and secondary social profiles | ✅ |
 
 ---

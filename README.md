@@ -25,19 +25,20 @@ In an era of information overload, this repository adheres to a strict curation 
 
 | # | Category | # | Category |
 | --- | --- | --- | --- |
-| 01 | [Search Engines & Dorking](https://#01--search-engines--dorking) | 12 | [Phone Number Intelligence](https://#12--phone-number-intelligence) |
-| 02 | [Recon Frameworks & Automation](https://#02--recon-frameworks--automation) | 13 | [Breach & Credential Intelligence](https://#13--breach--credential-intelligence) |
-| 03 | [Domain, DNS & Certificate Intel](https://#03--domain-dns--certificate-intel) | 14 | [OPSEC, Privacy & Anonymity](https://#14--opsec-privacy--anonymity) |
-| 04 | [Social Media & Username OSINT](https://#04--social-media--username-osint) | 15 | [Browser Extensions & Quick Lookup](https://#15--browser-extensions--quick-lookup) |
-| 05 | [Image & Video Forensics](https://#05--image--video-forensics) | 16 | [AI-Assisted OSINT (The Meta-Layer)](https://#16--ai-assisted-osint-the-meta-layer) |
-| 06 | [Dark Web & Underground Intel](https://#06--dark-web--underground-intel) | 17 | [Company & Corporate Intelligence](https://#17--company--corporate-intelligence) |
-| 07 | [People & Identity Investigation](https://#07--people--identity-investigation) | 18 | [Cyberspace Asset Search](https://#18--cyberspace-asset-search) |
-| 08 | [Document & Metadata Extraction](https://#08--document--metadata-extraction) | 19 | [Live Cyber Threat Maps](https://#19--live-cyber-threat-maps) |
-| 09 | [Email Intelligence](https://#09--email-intelligence) | 20 | [Geospatial & Satellite Intelligence](https://#20--geospatial--satellite-intelligence) |
-| 10 | [Blockchain & Crypto Tracing](https://#10--blockchain--crypto-tracing) | 21 | [News, Archives & Web History](https://#21--news-archives--web-history) |
-| 11 | [Threat Actor & APT Tracking](https://#11--threat-actor--apt-tracking) | 22 | [Report Writing & Case Management](https://#22--report-writing--case-management) |
-| 12 | [Phone Number Intelligence](https://#12--phone-number-intelligence) | 23 | [Learning, Communities & Resources](https://#23--learning-communities--resources) |
-| 13 | [Breach & Credential Intelligence](https://#13--breach--credential-intelligence) | 24 | [Reserved / Future Expansion](https://#24--reserved--future-expansion) |
+| 01 | [Search Engines & Dorking](https://#01-search-engines--dorking) | 12 | [Phone Number Intelligence](https://#12-phone-number-intelligence) |
+| 02 | [Recon Frameworks & Automation](https://#02-recon-frameworks--automation) | 13 | [Breach & Credential Intelligence](https://#13-breach--credential-intelligence) |
+| 03 | [Domain, DNS & Certificate Intel](https://#03-domain-dns--certificate-intel) | 14 | [OPSEC, Privacy & Anonymity](https://#14-opsec-privacy--anonymity) |
+| 04 | [Social Media & Username OSINT](https://#04-social-media--username-osint) | 15 | [Browser Extensions & Quick Lookup](https://#15-browser-extensions--quick-lookup) |
+| 05 | [Image & Video Forensics](https://#05-image--video-forensics) | 16 | [AI-Assisted OSINT (The Meta-Layer)](https://#16-ai-assisted-osint-the-meta-layer) |
+| 06 | [Dark Web & Underground Intel](https://#06-dark-web--underground-intel) | 17 | [Company & Corporate Intelligence](https://#17-company--corporate-intelligence) |
+| 07 | [People & Identity Investigation](https://#07-people--identity-investigation) | 18 | [Cyberspace Asset Search](https://#18-cyberspace-asset-search) |
+| 08 | [Document & Metadata Extraction](https://#08-document--metadata-extraction) | 19 | [Live Cyber Threat Maps](https://#19-live-cyber-threat-maps) |
+| 09 | [Email Intelligence](https://#09-email-intelligence) | 20 | [Geospatial & Satellite Intelligence](https://#20-geospatial--satellite-intelligence) |
+| 10 | [Blockchain & Crypto Tracing](https://#10-blockchain--crypto-tracing) | 21 | [News, Archives & Web History](https://#21-news-archives--web-history) |
+| 11 | [Threat Actor & APT Tracking](https://#11-threat-actor--apt-tracking) | 22 | [Report Writing & Case Management](https://#22-report-writing--case-management) |
+| 12 | [Phone Number Intelligence](https://#12-phone-number-intelligence) | 23 | [Learning, Communities & Resources](https://#23-learning-communities--resources) |
+| 13 | [Breach & Credential Intelligence](https://#13-breach--credential-intelligence) | 24 | [Reserved / Future Expansion](https://#24-reserved--future-expansion) |
+
 ---
 
 ## 01 · Search Engines & Dorking

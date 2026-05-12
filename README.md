@@ -28,8 +28,8 @@ In an era of information overload, this repository adheres to a strict curation 
 | 01 | [Search Engines & Dorking](#01--search-engines--dorking) | 13 | [Breach & Credential Intelligence](#13--breach--credential-intelligence) |
 | 02 | [Recon Frameworks & Automation](#02--recon-frameworks--automation) | 14 | [OPSEC, Privacy & Anonymity](#14--opsec-privacy--anonymity) |
 | 03 | [Domain, DNS & Certificate Intel](#03--domain-dns--certificate-intel) | 15 | [Browser Extensions & Quick Lookup](#15--browser-extensions--quick-lookup) |
-| 04 | [Social Media & Username OSINT](#04--social-media--username-osint) | 16 | [AI-Assisted OSINT (The Meta-Layer)](#-16-ai-assisted-osint-the-meta-layer) |
-| 05 | [Image & Video Forensics](#05--image--video-forensics) | 17 | [Code & Repository Intelligence](#17-code--repository-intelligence) |
+| 04 | [Social Media & Username OSINT](#04--social-media--username-osint) | 16 | [AI-Assisted OSINT (The Meta-Layer)](-16-ai-assisted-osint-the-meta-layer) |
+| 05 | [Image & Video Forensics](#05--image--video-forensics) | 17 | [Code & Repository Intelligence](17-code--repository-intelligence) |
 | 06 | [Dark Web & Underground Intel](#06--dark-web--underground-intel) | 18 | [Cyberspace Asset Search](#18--cyberspace-asset-search) |
 | 07 | [People & Identity Investigation](#07--people--identity-investigation) | 19 | [Live Cyber Threat Maps](#19--live-cyber-threat-maps) |
 | 08 | [Document & Metadata Extraction](#08--document--metadata-extraction) | 20 | [Geospatial & Satellite Intelligence](#20--geospatial--satellite-intelligence) |

@@ -55,6 +55,10 @@ In an era of information overload, this repository adheres to a strict curation 
 | [Perplexity AI](https://www.perplexity.ai) | AI search with cited sources — fast context-building on any topic | ✅ |
 | [Wolfram Alpha](https://www.wolframalpha.com) | Computational knowledge engine — useful for data, stats, and structured queries | ✅ |
 | [Kagi](https://kagi.com) | Ad-free, high-quality independent index with "Lenses" | Freemium |
+| [Phonebook.cz](https://phonebook.cz) | Domain dumps: subdomains, emails, and URLs in one shot. Consistently recommended and missing from your list | Free |
+| [urlscan.io](https://urlscan.io) | Safe URL detonation: visits a URL like a browser, screenshots the page, extracts IPs/scripts/tech. Essential and widely cited | Free |
+
+
 
 ### Privacy-First Search (OPSEC Investigations)
 
@@ -142,6 +146,7 @@ site:target.com inurl:login OR inurl:signin OR inurl:portal
 | [SecurityTrails](https://securitytrails.com) | Historical DNS records, IP history, connected infrastructure | Freemium |
 | [ViewDNS.info](https://viewdns.info) | 20+ DNS tools — IP history, reverse IP, WHOIS, port check | ✅ |
 | [MXToolbox](https://mxtoolbox.com) | Email, DNS, blacklist, and SPF/DKIM diagnostics | ✅ |
+| [Web-Check](https://web-check.xyz) | All-in-one website OSINT: WHOIS, headers, DNS, tech stack, open ports, TLS, redirects in one dashboard. Actively maintained open-source tool | Free |
 
 ### WHOIS & Ownership
 
@@ -183,7 +188,9 @@ site:target.com inurl:login OR inurl:signin OR inurl:portal
 | [Namechk](https://namechk.com) | 100+ major platforms — quick username availability check | ✅ |
 | [Digital Footprint Check](https://www.digitalfootprintcheck.com) | 100+ sites — free, no registration needed | ✅ |
 | [TgramSearch](https://en.tgramsearch.com) | Find public Telegram channels and groups by keyword or category without needing an account | ✅ |
-| [Telemetrio](https://telemetr.io) | Channel analytics and influence network tracking | |
+| [Telemetrio](https://telemetr.io) | Channel analytics and influence network tracking | 
+| [FaceCheck.ID](https://facecheck.id) | Face recognition search across blogs, news, video thumbnails. Broader and more accessible than PimEyes | Freemium |
+| [Instant Data Scraper](https://chrome.google.com/webstore/detail/instant-data-scraper) | Browser extension for scraping any social/public table instantly | Free |
 
 ### Platform-Specific Tools
 
@@ -268,6 +275,9 @@ site:target.com inurl:login OR inurl:signin OR inurl:portal
 | [TinEye](https://tineye.com) | Exact match history with earliest appearance dates | Freemium |
 | [PimEyes](https://pimeyes.com) | AI face recognition — finds where a face appears online | Freemium |
 | [Lenso.ai](https://lenso.ai) | AI reverse search with dedicated "Research Mode" (10k+ results) | Freemium |
+| [Instant Data Scraper](https://chrome.google.com/webstore/detail/instant-data-scraper) | Browser extension for scraping any social/public table instantly | Free |
+| [KartaVision](https://kartavision.com) | Natural language + image search across KartaView street imagery | Free |
+| [Pic2Map](https://www.pic2map.com) / [Jeffrey's Exif Viewer](http://exif.regex.info/exif.cgi) | Web-based EXIF analysis without installing ExifTool | Free |
 
 ### Video Verification
 
@@ -377,6 +387,7 @@ site:target.com filetype:env OR filetype:log OR filetype:sql OR filetype:bak
 | [Email Hippo](https://tools.emailhippo.com) | Validate whether an email address actually exists on the mail server | Freemium |
 | [Email Format](https://email-format.com) | Discover email naming patterns used by specific companies | ✅ |
 | [MXToolbox Email Headers](https://mxtoolbox.com/EmailHeaders.aspx) | Parse email headers to trace routing path and sending infrastructure | ✅ |
+| [Anymailfinder](https://anymailfinder.com) | Finds and verifies professional emails | Paid |
 
 ---
 
@@ -466,6 +477,10 @@ site:target.com filetype:env OR filetype:log OR filetype:sql OR filetype:bak
 | [Whonix](https://www.whonix.org) | Two-VM setup: Gateway (Tor) + Workstation — traffic cannot leak by design |
 | [Kali Linux](https://www.kali.org) | Penetration testing distro with OSINT tools pre-installed |
 | [ProtonVPN](https://protonvpn.com) | No-logs, open-source VPN — run at the host level when using VMs |
+| [VeraCrypt](https://www.veracrypt.fr) | Open-source disk encryption software, successor to TrueCrypt | Free |
+| [CryptPad](https://cryptpad.fr) | Encrypted collaboration suite with zero-knowledge architecture | Free |
+| [Proton Mail](https://proton.me/mail) | End-to-end encrypted email service | Freemium |
+| [Tutanota](https://tutanota.com) | Secure, encrypted email service | Freemium |
 
 ### Sock Puppet & Investigation Hygiene
 
@@ -569,7 +584,6 @@ site:target.com filetype:env OR filetype:log OR filetype:sql OR filetype:bak
 | [ONYPHE](https://search.onyphe.io) | Passive + active internet scan data with threat intelligence overlays | Freemium |
 | [GrayhatWarfare](https://grayhatwarfare.com) | Open S3 buckets — exposes publicly accessible cloud storage | Freemium |
 | [BeVigil](https://bevigil.com/search) | Subdomains, URLs, and parameters extracted from **mobile apps** — unique source | Freemium |
-| [ODIN](https://search.odin.io) | Hosts, CVEs, exposed buckets — 10 free searches per day | Freemium |
 | [Shadowserver](https://dashboard.shadowserver.org) | Global cyber threat statistics — botnets, C2s, vulnerable systems | ✅ |
 | [BGP.tools](https://bgp.tools) | Modern BGP and ASN toolkit for network-level reconnaissance | ✅ |
 | [BGP.he.net](https://bgp.he.net) | ASN lookup, BGP routes, and IP block ownership | ✅ |

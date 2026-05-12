@@ -24,20 +24,19 @@ In an era of information overload, this repository adheres to a strict curation 
 ## 🗂️ Index
 
 | # | Category | # | Category |
-| --- | --- | --- | --- |
-| 01 | [Search Engines & Dorking](https://#01-search-engines--dorking) | 12 | [Phone Number Intelligence](https://#12-phone-number-intelligence) |
-| 02 | [Recon Frameworks & Automation](https://#02-recon-frameworks--automation) | 13 | [Breach & Credential Intelligence](https://#13-breach--credential-intelligence) |
-| 03 | [Domain, DNS & Certificate Intel](https://#03-domain-dns--certificate-intel) | 14 | [OPSEC, Privacy & Anonymity](https://#14-opsec-privacy--anonymity) |
-| 04 | [Social Media & Username OSINT](https://#04-social-media--username-osint) | 15 | [Browser Extensions & Quick Lookup](https://#15-browser-extensions--quick-lookup) |
-| 05 | [Image & Video Forensics](https://#05-image--video-forensics) | 16 | [AI-Assisted OSINT (The Meta-Layer)](https://#16-ai-assisted-osint-the-meta-layer) |
-| 06 | [Dark Web & Underground Intel](https://#06-dark-web--underground-intel) | 17 | [Company & Corporate Intelligence](https://#17-company--corporate-intelligence) |
-| 07 | [People & Identity Investigation](https://#07-people--identity-investigation) | 18 | [Cyberspace Asset Search](https://#18-cyberspace-asset-search) |
-| 08 | [Document & Metadata Extraction](https://#08-document--metadata-extraction) | 19 | [Live Cyber Threat Maps](https://#19-live-cyber-threat-maps) |
-| 09 | [Email Intelligence](https://#09-email-intelligence) | 20 | [Geospatial & Satellite Intelligence](https://#20-geospatial--satellite-intelligence) |
-| 10 | [Blockchain & Crypto Tracing](https://#10-blockchain--crypto-tracing) | 21 | [News, Archives & Web History](https://#21-news-archives--web-history) |
-| 11 | [Threat Actor & APT Tracking](https://#11-threat-actor--apt-tracking) | 22 | [Report Writing & Case Management](https://#22-report-writing--case-management) |
-| 12 | [Phone Number Intelligence](https://#12-phone-number-intelligence) | 23 | [Learning, Communities & Resources](https://#23-learning-communities--resources) |
-| 13 | [Breach & Credential Intelligence](https://#13-breach--credential-intelligence) | 24 | [Reserved / Future Expansion](https://#24-reserved--future-expansion) |
+| :--- | :--- | :--- | :--- |
+| 01 | [Search Engines & Dorking](#01--search-engines--dorking) | 13 | [Breach & Credential Intelligence](#13--breach--credential-intelligence) |
+| 02 | [Recon Frameworks & Automation](#02--recon-frameworks--automation) | 14 | [OPSEC, Privacy & Anonymity](#14--opsec-privacy--anonymity) |
+| 03 | [Domain, DNS & Certificate Intel](#03--domain-dns--certificate-intel) | 15 | [Browser Extensions & Quick Lookup](#15--browser-extensions--quick-lookup) |
+| 04 | [Social Media & Username OSINT](#04--social-media--username-osint) | 16 | [AI-Assisted OSINT (The Meta-Layer)](#-16-ai-assisted-osint-the-meta-layer) |
+| 05 | [Image & Video Forensics](#05--image--video-forensics) | 17 | [Code & Repository Intelligence](#17-code--repository-intelligence) |
+| 06 | [Dark Web & Underground Intel](#06--dark-web--underground-intel) | 18 | [Cyberspace Asset Search](#18--cyberspace-asset-search) |
+| 07 | [People & Identity Investigation](#07--people--identity-investigation) | 19 | [Live Cyber Threat Maps](#19--live-cyber-threat-maps) |
+| 08 | [Document & Metadata Extraction](#08--document--metadata-extraction) | 20 | [Geospatial & Satellite Intelligence](#20--geospatial--satellite-intelligence) |
+| 09 | [Email Intelligence](#09--email-intelligence) | 21 | [News, Archives & Web History](#21--news-archives--web-history) |
+| 10 | [Blockchain & Crypto Tracing](#10--blockchain--crypto-tracing) | 22 | [Report Writing & Case Management](#22-report-writing--case-management) |
+| 11 | [Threat Actor & APT Tracking](#11--threat-actor--apt-tracking) | 23 | [Learning, Communities & Resources](#23-learning-communities--resources) |
+| 12 | [Phone Number Intelligence](#12--phone-number-intelligence) | 24 | [Reserved / Future Expansion](#24-reserved--future-expansion) |
 
 ---
 
@@ -527,7 +526,7 @@ site:target.com filetype:env OR filetype:log OR filetype:sql OR filetype:bak
 
 ---
 
-## 16· AI-Assisted OSINT (The Meta-Layer)
+## 16 · AI-Assisted OSINT (The Meta-Layer)
 
 > These tools act as a “meta-layer” for intelligence work, leveraging AI to accelerate research, automate complex queries, and synthesize large volumes of data. They don’t just fetch information — they help you interpret, connect, and contextualize it across languages, sources, and formats.
 
@@ -544,9 +543,10 @@ site:target.com filetype:env OR filetype:log OR filetype:sql OR filetype:bak
 | [Deepware Scanner](https://deepware.ai) | Multi-engine scanner for detecting deepfake videos | ✅ |
 | [Hive Moderation](https://hivemoderation.com) | Detects AI-generated images (Midjourney, DALL-E) and text | Freemium |
 | [Sensity AI](https://sensity.ai) | Visual threat intelligence specializing in deepfake fraud and “FaceSwap” detection | 💲 |
+
 ---
 
-## 17· Code & Repository Intelligence
+## 17 · Code & Repository Intelligence
 
 > Developers routinely expose credentials, API keys, internal endpoints, and PII in public repositories. This category is consistently high-yield for security researchers.
 
@@ -563,7 +563,7 @@ site:target.com filetype:env OR filetype:log OR filetype:sql OR filetype:bak
 
 ---
 
-## 17 · Company & Corporate Intelligence
+## 18 · Company & Corporate Intelligence
 
 ### Public Records & Filings
 
@@ -588,7 +588,7 @@ site:target.com filetype:env OR filetype:log OR filetype:sql OR filetype:bak
 
 ---
 
-## 18 · Cyberspace Asset Search
+## 19 · Cyberspace Asset Search
 
 > Search engines for the internet itself — indexing ports, banners, certificates, and exposed services. Core to attack surface mapping and threat hunting.
 
@@ -616,7 +616,7 @@ site:target.com filetype:env OR filetype:log OR filetype:sql OR filetype:bak
 
 ---
 
-## 19 · Live Cyber Threat Maps
+## 20 · Live Cyber Threat Maps
 
 > Real-time attack visualization — useful for situational awareness and understanding global threat patterns.
 
@@ -631,7 +631,7 @@ site:target.com filetype:env OR filetype:log OR filetype:sql OR filetype:bak
 
 ---
 
-## 20 · Geospatial & Satellite Intelligence
+## 21 · Geospatial & Satellite Intelligence
 
 ### Imagery & Verification
 
@@ -657,7 +657,7 @@ site:target.com filetype:env OR filetype:log OR filetype:sql OR filetype:bak
 
 ---
 
-## 21 · News, Archives & Web History
+## 22 · News, Archives & Web History
 
 | Tool | Description | Free |
 | --- | --- | --- |
@@ -670,7 +670,7 @@ site:target.com filetype:env OR filetype:log OR filetype:sql OR filetype:bak
 
 ---
 
-## 22· Report Writing & Case Management
+## 23 · Report Writing & Case Management
 
 > These tools are designed to help investigators, analysts, and OSINT practitioners organize findings, preserve evidence, and present cases in a structured, professional way. They bridge the gap between raw intelligence gathering and polished, court‑ready or client‑ready reports.
 
@@ -684,7 +684,7 @@ site:target.com filetype:env OR filetype:log OR filetype:sql OR filetype:bak
 
 ---
 
-## 23. Learning, Communities & Resources
+## 24 · Learning, Communities & Resources
 
 ### Free Training & Platforms
 

@@ -813,10 +813,13 @@ To contribute a tool, open a pull request with this format:
 
 ---
 
-⚖️ Disclaimer & License
+## ⚖️ Disclaimer & License
 
-Notice: This project is provided for educational and professional research purposes only. The "Signal-Over-Noise" and its contributors do not endorse the use of these tools for stalking, harassment, unauthorized access, or any activities that violate the privacy of individuals or the laws of any jurisdiction.
+**Notice:** This project is provided strictly for educational and professional research purposes.  
+SignalVault and its contributors do **not** endorse or condone the use of these tools for stalking, harassment, unauthorized access, or any activity that violates privacy rights or the laws of any jurisdiction.
 
-Liability: The user assumes all responsibility for their actions. Accessing certain data sources may be subject to the Terms of Service of the respective providers.
+**Liability:** Users assume full responsibility for their actions. Accessing certain data sources may be subject to the Terms of Service of the respective providers. Always ensure compliance with applicable regulations and ethical standards.
 
-License: This toolkit is licensed under the MIT License. Feel free to fork, share, and build upon this knowledge responsibly. *Maintained by the community · Last updated May 2026 · ⭐ Star if this helped you*
+**License:** This toolkit is licensed under the MIT License. You are free to fork, share, and build upon this knowledge responsibly.  
+Maintained by the community · Last updated May 2026 · ⭐ Star this repo if it helps you cut through the noise.
+

@@ -124,7 +124,7 @@ site:target.com inurl:login OR inurl:signin OR inurl:portal
 
 | Tool | Type | Best For | Free |
 | --- | --- | --- | --- |
-| [SpiderFoot](https://www.spiderfoot.net) | Open-source / SaaS | 200+ module automated recon — domains, IPs, emails, usernames, breach data | ✅ OSS |
+| [SpiderFoot](https://github.com/smicallef/spiderfoot) | Open-source / SaaS | 200+ module automated recon — domains, IPs, emails, usernames, breach data | ✅ OSS |
 | [Maltego](https://www.maltego.com) | GUI / Cloud | Visual link analysis — map relationships between entities across data sources | Freemium |
 | [Recon-ng](https://github.com/lanmaster53/recon-ng) | CLI Framework | Metasploit-style modular recon — domains, contacts, infrastructure enumeration | ✅ |
 | [theHarvester](https://github.com/laramies/theHarvester) | CLI | Email, subdomain, IP, and URL harvesting from 30+ sources | ✅ |
@@ -186,6 +186,7 @@ site:target.com inurl:login OR inurl:signin OR inurl:portal
 | [Maigret](https://github.com/soxoj/maigret) | 3,000+ sites — pulls profile photos, bios, and linked accounts | ✅ |
 | [Blackbird](https://github.com/p1ngul1n0/blackbird) | 600+ websites with async verification | ✅ |
 | [WhatsMyName](https://whatsmyname.app) | Community-maintained JSON source list — accurate and regularly updated | ✅ |
+| [IDCrawl](https://www.idcrawl.com) | People search engine that aggregates publicly available information from social media, news, and web sources to build profiles |
 | [Namechk](https://namechk.com) | 100+ major platforms — quick username availability check | ✅ |
 | [Digital Footprint Check](https://www.digitalfootprintcheck.com) | 100+ sites — free, no registration needed | ✅ |
 | [TgramSearch](https://en.tgramsearch.com) | Find public Telegram channels and groups by keyword or category without needing an account | ✅ |
@@ -224,6 +225,7 @@ site:target.com inurl:login OR inurl:signin OR inurl:portal
 | --- | --- |
 | [Lyzem](https://lyzem.com) | Independent crawler that indexes Telegram content, often finds niche channels |
 | [Telemetrio](https://telemetr.io) | Channel analytics and influence network tracking |
+| [IDCrawl](https://www.idcrawl.com) | People search engine that aggregates publicly available information from social media, news, and web sources to build profiles |
 | [Telegago](https://cse.google.com/cse?cx=006368593537057042503:efxu7xprihg) | Official 2026 Telegago engine for public Telegram content |
 
 **Steam**
@@ -251,8 +253,11 @@ site:target.com inurl:login OR inurl:signin OR inurl:portal
 | Tool | Description |
 | --- | --- |
 | [linkedin2username](https://github.com/initstring/linkedin2username) | Generate username wordlists from company LinkedIn employee pages |
-| [InSpy](https://github.com/gojhonny/InSpy) | Enumerates LinkedIn profiles by company, job title, and keyword to build target lists |
 | [LittleBrother](https://github.com/lulz3xploit/LittleBrother) | OSINT tool that can pull LinkedIn data along with other social media and public records |
+| [LinkedInt](https://github.com/mdsecactivebreach/LinkedInt) | Extracts employee names and job titles from LinkedIn for reconnaissance |
+| [EagleEye](https://github.com/ThoughtfulDev/EagleEye) | Cross-references LinkedIn profiles with other social media to build a fuller picture |
+| [linkedin-osint-toolkit](https://github.com/michaelelizarov/linkedin-osint-toolkit) | Toolkit for automating LinkedIn OSINT tasks such as profile scraping, company analysis, and data extraction |
+
 
 **WhatsApp**
 
@@ -535,7 +540,6 @@ site:target.com filetype:env OR filetype:log OR filetype:sql OR filetype:bak
 | [Perplexity AI](https://www.perplexity.ai) | Real-time “Source-First” search engine; excellent for finding cited links to obscure PDF reports | Freemium |
 | [Claude 3.5 Sonnet](https://claude.ai) | The gold standard for analyzing large document dumps (PDFs/TXT) with minimal hallucination | Freemium |
 | [Grok-1.5](https://x.ai) | Real-time X (Twitter) intelligence; best for tracking breaking kinetic events or live sentiment | 💲 |
-| [Geppetto](https://github.com/OSINT-Tools/geppetto) | Open-source LLM wrapper designed specifically for OSINT workflows | ✅ |
 | [DorkGPT](https://dorkgpt.com) | Converts plain-language requests into advanced Google Dorks and Shodan queries | ✅ |
 | [EPIEOS AI](https://epieos.com) | Uses AI to predict and find linked social media profiles from a single email/phone | Freemium |
 | [Babel X](https://babelstreet.com/products/babel-x) | AI-driven multilingual analysis; cross-references 200+ languages in real-time | 💲 |
@@ -543,6 +547,8 @@ site:target.com filetype:env OR filetype:log OR filetype:sql OR filetype:bak
 | [Deepware Scanner](https://deepware.ai) | Multi-engine scanner for detecting deepfake videos | ✅ |
 | [Hive Moderation](https://hivemoderation.com) | Detects AI-generated images (Midjourney, DALL-E) and text | Freemium |
 | [Sensity AI](https://sensity.ai) | Visual threat intelligence specializing in deepfake fraud and “FaceSwap” detection | 💲 |
+| [llm_osint](https://github.com/sshh12/llm_osint) | Toolkit leveraging LLMs for automating OSINT queries and workflows | ✅ |
+
 
 ---
 

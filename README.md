@@ -816,7 +816,7 @@ To contribute a tool, open a pull request with this format:
 ## ⚖️ Disclaimer & License
 
 **Notice:** This project is provided strictly for educational and professional research purposes.  
-SignalVault and its contributors do **not** endorse or condone the use of these tools for stalking, harassment, unauthorized access, or any activity that violates privacy rights or the laws of any jurisdiction.
+"SignalVault" and its contributors do **not** endorse or condone the use of these tools for stalking, harassment, unauthorized access, or any activity that violates privacy rights or the laws of any jurisdiction.
 
 **Liability:** Users assume full responsibility for their actions. Accessing certain data sources may be subject to the Terms of Service of the respective providers. Always ensure compliance with applicable regulations and ethical standards.
 

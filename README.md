@@ -1,9 +1,11 @@
 # # 🕵️ SignalVault: The Definitive OSINT Arsenal for Modern Investigators
 
-The OSINT noise floor is rising. This is the signal.  
-A curated collection of field-tested intelligence tools for cybersecurity professionals, threat hunters, and investigators.  
-I maintain this repository to bridge the gap between theoretical tools and actual investigative results.  
-No filler, no dead links: just the high-yield assets I use to cut through the static.
+The OSINT noise floor is rising — SignalVault is the clarity.  
+This repository is a curated arsenal of field‑tested intelligence tools built for cybersecurity professionals, threat hunters, and investigators.  
+
+Its purpose is simple: to bridge the gap between theoretical utilities and actionable investigative results.  
+No filler. No dead links. Only high‑yield assets that cut through the static and deliver signal where it matters most.
+
 
 ![Status](https://img.shields.io/badge/Status-Actively%20Maintained-brightgreen?style=flat-square) ![Year](https://img.shields.io/badge/Updated-May%202026-blue?style=flat-square) ![Tools](https://img.shields.io/badge/Tools-200%2B-orange?style=flat-square) ![License](https://img.shields.io/badge/License-MIT-lightgrey?style=flat-square) ![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-brightgreen?style=flat-square)
 
